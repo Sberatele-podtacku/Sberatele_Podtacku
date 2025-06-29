@@ -126,7 +126,7 @@
       gallery.innerHTML = '';
 
       let filtered = metadata.filter(m =>
-        (activeAlpha === 'all' || (activeAlpha === 'empty' && (!m.description || m.description.trim() === '')) || ((m.description || '').charAt(0).toUpperCase() === activeAlpha)) &&
+        (activeAlpha === 'all' || (activeAlpha === 'empty' && (!m.description || m.description.trim() === '' || m.letter === 'XX')) || ((m.description || '').charAt(0).toUpperCase() === activeAlpha)) &&
         (activeCountry === 'all' || (activeCountry === 'empty' && (!m.country || m.country.trim() === '')) || m.country === activeCountry)
       );
 
