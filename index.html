@@ -2,216 +2,141 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Beer Coaster Gallery</title>
   <style>
-    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
-    body { font-family: 'Open Sans', sans-serif; margin: 0; padding: 0; background: #f8f8f8; }
-    header { text-align: center; padding: 1rem; background: #fff; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
-    header img.logo { height: 50px; margin: 0 1rem; vertical-align: middle; }
-    header h1 { display: inline-block; margin: 0; font-size: 1.8rem; font-weight: 600; }
-    .instructions { text-align: center; margin: 0.25rem 0; color: #555; font-size: 0.9rem; }
+    body { font-family: Arial, sans-serif; margin: 0; background: #f5f5f5; color: #222; }
+    header { background: #222; color: white; padding: 1rem; text-align: center; }
+    .filters { padding: 1rem; text-align: center; }
+    .letters button { margin: 0.2rem; padding: 0.5rem 0.8rem; cursor: pointer; border: none; background: #eee; border-radius: 4px; }
+    .letters button.active { background: #333; color: white; font-weight: bold; }
+    #countryFilter { padding: 0.5rem; margin-left: 1rem; }
 
-    .filters {
-  position: sticky;
-  top: 0;
-  z-index: 999;
-  background: #f8f8f8;
-  border-bottom: 1px solid #ddd; display: flex; flex-direction: column; align-items: center; gap: 1rem; margin: 1rem 0; }
-    .filters .alpha, .filters .country { display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap; }
-    .filters label { font-size: 1rem; font-weight: 600; }
-    .filters .letters button, .filters .countries button { background: #fff; border: 1px solid #ccc; border-radius: 4px; padding: 0.2rem 0.5rem; cursor: pointer; }
-    .filters .letters button.active, .filters .countries button.active { background: #007bff; color: #fff; border-color: #007bff; }
-
-    .count { text-align: center; margin: 0.5rem 0; font-weight: bold; color: #333; }
-    .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 0.5rem; padding: 0 0.75rem 1rem; }
-    .tile { position: relative; background: #fff; border: 1px solid #ddd; border-radius: 12px; overflow: hidden; box-shadow: 0 1px 3px rgba(0,0,0,0.1); cursor: pointer;
-             display: flex; flex-direction: column; justify-content: space-between; }
-    .tile img { width: 100%; height: auto; display: block; border-radius: 8px 8px 0 0; }
-    .tile .thumb-flip { position: absolute; top: 8px; right: 8px; background: rgba(255,255,255,0.8); border: none; border-radius: 50%; width: 28px; height: 28px; cursor: pointer; font-size: 16px; line-height: 1; display: flex; align-items: center; justify-content: center; }
-    .tile figcaption { padding: 0.25rem 0.5rem; text-align: center; font-size: 0.7rem; color: #333; line-height: 1.1rem; height: 2.2rem; overflow: hidden; }
-
-    .overlay { position: fixed; inset: 0; background: rgba(0,0,0,0.8); display: none; align-items: center; justify-content: center; z-index: 1000; }
-    .overlay.active { display: flex; }
-    .overlay img { max-width: 90%; max-height: 90%; border-radius: 8px; cursor: pointer; }
-    .overlay .controls { position: absolute; bottom: 1rem; display: flex; gap: 1rem; }
-    .overlay .prev, .overlay .next, .overlay .flip, .overlay .close {
-      background: rgba(255,255,255,0.9); border: none; padding: 0.5rem 0.8rem; cursor: pointer;
-      border-radius: 4px; font-size: 0.9rem;
-    }
-
-    footer { text-align: center; padding: 1rem; font-size: 0.8rem; color: #666; background: #fff; }
+    .gallery { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 10px; padding: 1rem; }
+    .gallery img { width: 100%; border-radius: 8px; cursor: pointer; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+    .lightbox { position: fixed; top:0; left:0; right:0; bottom:0; background: rgba(0,0,0,0.9); display: none; align-items: center; justify-content: center; flex-direction: column; z-index: 999; }
+    .lightbox img { max-width: 90%; max-height: 80vh; }
+    .lightbox-controls { margin-top: 1rem; display: flex; gap: 1rem; }
+    .lightbox button { padding: 0.5rem 1rem; }
   </style>
 </head>
 <body>
   <header>
-    <img src="logos/logo1.png" alt="Logo" class="logo" />
     <h1>Beer Coaster Gallery</h1>
-    <img src="logos/logo2.png" alt="Logo" class="logo" />
-    <div class="instructions">Click Name to Zoom | Click Thumbnail to Flip</div>
+    <p>Total coasters: <span id="count">0</span></p>
   </header>
 
-  <section class="filters">
-    <div class="alpha">
-      <label>A–Z:</label>
-      <div class="letters" id="alphaFilter"></div>
-    </div>
-    <div class="country">
-      <label>Country where collected:</label>
-      <div class="countries" id="countryFilter"></div>
-    </div>
-  </section>
-
-  <div class="count">Total coasters: <span id="totalCount">0</span></div>
-
-  <main class="grid" id="gallery"></main>
-
-  <div class="overlay" id="lightbox">
-    <img src="" alt="Enlarged Coaster" id="lightboxImg" />
-    <div class="controls">
-      <button class="prev" id="prevBtn">◀ Prev</button>
-      <button class="flip" id="flipBtn">🔄 Flip</button>
-      <button class="next" id="nextBtn">Next ▶</button>
-      <button class="close" id="closeBtn">✕ Close</button>
-    </div>
+  <div class="filters">
+    <div class="letters"></div>
+    <label>
+      Country:
+      <select id="countryFilter"></select>
+    </label>
   </div>
 
-  <footer>Done with the support of ChatGPT</footer>
+  <div class="gallery" id="gallery"></div>
+
+  <div class="lightbox" id="lightbox">
+    <img id="lightbox-img" src="" alt="coaster full"/>
+    <div class="lightbox-controls">
+      <button onclick="toggleSide()">Flip</button>
+      <button onclick="closeLightbox()">Close</button>
+    </div>
+  </div>
 
   <script>
     let metadata = [];
     let activeAlpha = 'all';
     let activeCountry = 'all';
-    let filteredIds = [];
+    let currentSide = 'front';
 
-    fetch('./metadata.json')
-      .then(res => res.ok ? res.json() : Promise.reject('Failed to fetch metadata.json'))
-      .then(data => {
-        metadata = data;
-        initFilters();
-        renderGallery();
-      })
-      .catch(err => console.error('Error loading metadata:', err));
+    function initFilters(data) {
+      const alphaDiv = document.querySelector('.letters');
+      alphaDiv.innerHTML = '';
 
-    function initFilters() {
-      const alphaDiv = document.getElementById('alphaFilter');
-     ['All', ...'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split(''), 'Empty'].forEach(letter => {
+      ['All', ...'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split(''), 'Empty'].forEach(letter => {
         const btn = document.createElement('button');
         btn.textContent = letter;
         btn.dataset.letter = letter;
-        if(letter === 'all') btn.classList.add('active');
+        if (letter.toLowerCase() === 'all') btn.classList.add('active');
         btn.onclick = () => {
-          activeAlpha = letter;
-          document.querySelectorAll('.letters button').forEach(b=>b.classList.remove('active'));
+          activeAlpha = letter.toLowerCase();
+          document.querySelectorAll('.letters button').forEach(b => b.classList.remove('active'));
           btn.classList.add('active');
           renderGallery();
         };
         alphaDiv.append(btn);
       });
 
-      const countryDiv = document.getElementById('countryFilter');
-      const countries = Array.from(new Set(metadata.map(m => m.country).filter(c => c))).sort();
-      ['All', ...countries, 'Empty'].forEach(c => {
-        const btn = document.createElement('button');
-        btn.textContent = c;
-        btn.dataset.country = c;
-        if(c === 'all') btn.classList.add('active');
-        btn.onclick = () => {
-          activeCountry = c;
-          document.querySelectorAll('.countries button').forEach(b=>b.classList.remove('active'));
-          btn.classList.add('active');
-          renderGallery();
-        };
-        countryDiv.append(btn);
+      const countries = ['All', ...new Set(data.map(m => m.country || 'Empty'))];
+      const countrySelect = document.getElementById('countryFilter');
+      countrySelect.innerHTML = '';
+      countries.forEach(c => {
+        const opt = document.createElement('option');
+        opt.value = c.toLowerCase();
+        opt.textContent = c;
+        countrySelect.appendChild(opt);
       });
+      countrySelect.onchange = e => {
+        activeCountry = e.target.value;
+        renderGallery();
+      };
     }
 
     function renderGallery() {
       const gallery = document.getElementById('gallery');
       gallery.innerHTML = '';
 
-      let filtered = metadata.filter(m =>
-        (activeAlpha === 'all' || (activeAlpha === 'empty' && (!m.description || m.description.trim() === '' || m.letter === 'XX')) || ((m.description || '').charAt(0).toUpperCase() === activeAlpha)) &&
-        (activeCountry === 'all' || (activeCountry === 'empty' && (!m.country || m.country.trim() === '')) || m.country === activeCountry)
-      );
+      const filtered = metadata.filter(m => {
+        const matchAlpha = activeAlpha === 'all' || 
+                           (activeAlpha === 'empty' && !(m.description || '').trim()) ||
+                           (m.description || '').toLowerCase().startsWith(activeAlpha);
+        const matchCountry = activeCountry === 'all' || 
+                             (activeCountry === 'empty' && !(m.country || '').trim()) ||
+                             (m.country || '').toLowerCase() === activeCountry;
+        return matchAlpha && matchCountry;
+      });
 
-      const withLetter = filtered
-        .filter(m => m.description && /^[A-Z]/.test(m.description))
-        .sort((a,b) => a.description.localeCompare(b.description));
-      const noLetter = filtered
-        .filter(m => !m.description || !/^[A-Z]/.test(m.description))
-        .sort((a,b) => (a.description||'').localeCompare(b.description));
-      filtered = [...withLetter, ...noLetter];
-
-      filteredIds = filtered.map(m => m.id);
-      document.getElementById('totalCount').textContent = filteredIds.length;
+      document.getElementById('count').textContent = filtered.length;
 
       filtered.forEach(m => {
-        const fig = document.createElement('figure'); fig.className = 'tile';
-
         const img = document.createElement('img');
-        img.alt = m.description;
-        img.loading = 'lazy';
-        img.dataset.frontSrc = `images/thumbs/${m.id}_front.webp`;
-        img.dataset.backSrc  = `images/thumbs/${m.id}_back.webp`;
-        img.dataset.side     = 'front';
-        img.src = img.dataset.frontSrc;
-       
-        // flip thumbnail on click
-        img.onclick = e => { e.stopPropagation(); const side = img.dataset.side === 'front' ? 'back' : 'front'; img.dataset.side = side; img.src = side === 'front' ? img.dataset.frontSrc : img.dataset.backSrc; };
-        fig.append(img);
-
-        const flipBtn = document.createElement('button');
-        flipBtn.className = 'thumb-flip';
-        flipBtn.title = 'Flip thumbnail';
-        flipBtn.innerHTML = '🔄';
-        flipBtn.onclick = e => { e.stopPropagation(); img.click(); };
-        fig.append(flipBtn);
-
-        const cap = document.createElement('figcaption'); cap.textContent = m.description || '';
-        // open lightbox on description click
-        cap.onclick = () => openLightbox(m.id, img.dataset.side);
-        fig.append(cap);
-
-        gallery.append(fig);
+        img.src = `images/thumbs/${m.id}_front.webp`;
+        img.alt = m.description || m.id;
+        img.onclick = () => openLightbox(m.id);
+        gallery.appendChild(img);
       });
     }
 
-    function openLightbox(id, side) {
-      const imgEl = document.getElementById('lightboxImg');
-      imgEl.src = `images/${id}_${side}.webp`;
-      window.currentSide = side;
-      window.currentId = id;
-      document.getElementById('lightbox').classList.add('active');
+    function openLightbox(id) {
+      currentSide = 'front';
+      const imgEl = document.getElementById('lightbox-img');
+      imgEl.src = `images/${id}_${currentSide}.webp`;
+      imgEl.dataset.id = id;
+      document.getElementById('lightbox').style.display = 'flex';
     }
 
-    document.getElementById('closeBtn').onclick = () => document.getElementById('lightbox').classList.remove('active');
-    document.getElementById('prevBtn').onclick = () => navigateLightbox(-1);
-    document.getElementById('nextBtn').onclick = () => navigateLightbox(1);
-    document.getElementById('flipBtn').onclick = () => {
-      const nextSide = window.currentSide === 'front' ? 'back' : 'front';
-      openLightbox(window.currentId, nextSide);
-    };
-
-    function navigateLightbox(direction) {
-      const idx = filteredIds.indexOf(window.currentId);
-      const newIdx = (idx + direction + filteredIds.length) % filteredIds.length;
-      openLightbox(filteredIds[newIdx], 'front');
+    function closeLightbox() {
+      document.getElementById('lightbox').style.display = 'none';
     }
 
-    document.getElementById('lightbox').addEventListener('click', e => {
-      if(e.target.id === 'lightbox') document.getElementById('lightbox').classList.remove('active');
-    });
+    function toggleSide() {
+      const imgEl = document.getElementById('lightbox-img');
+      currentSide = currentSide === 'front' ? 'back' : 'front';
+      imgEl.src = `images/${imgEl.dataset.id}_${currentSide}.webp`;
+    }
 
-    document.getElementById('lightboxImg').addEventListener('click', () => document.getElementById('flipBtn').click());
-
-    if ('serviceWorker' in navigator) {
-      window.addEventListener('load', () => {
-        navigator.serviceWorker.register('/sw.js')
-          .then(reg => console.log('SW registered:', reg.scope))
-          .catch(err => console.error('SW failed:', err));
+    fetch('./metadata.json')
+      .then(res => res.ok ? res.json() : Promise.reject('Failed to fetch metadata.json'))
+      .then(data => {
+        metadata = data;
+        initFilters(data);
+        renderGallery();
+      })
+      .catch(err => {
+        console.error(err);
+        alert("Failed to load metadata.");
       });
-    }
   </script>
 </body>
 </html>
