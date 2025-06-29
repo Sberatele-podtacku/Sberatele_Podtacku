@@ -4888,5 +4888,359 @@
     "description": "Bohemia",
     "country": "Czechia",
     "letter": "B"
+  },
+  {
+    "id": "00816",
+    "description": "Staropramen",
+    "country": "Czechia",
+    "letter": "S"
+  },
+  {
+    "id": "00817",
+    "description": "Saris",
+    "country": "Slovakia",
+    "letter": "S"
+  },
+  {
+    "id": "00818",
+    "description": "Samuel Adams",
+    "country": "USA",
+    "letter": "S"
+  },
+  {
+    "id": "00819",
+    "description": "Sagres",
+    "country": "Portugal",
+    "letter": "S"
+  },
+  {
+    "id": "00820",
+    "description": "San Miguel",
+    "country": "Spain",
+    "letter": "S"
+  },
+  {
+    "id": "00821",
+    "description": "Strakonice",
+    "country": "Czechia",
+    "letter": "S"
+  },
+  {
+    "id": "00822",
+    "description": "Saris",
+    "country": "Slovakia",
+    "letter": "S"
+  },
+  {
+    "id": "00823",
+    "description": "Svijany",
+    "country": "Czechia",
+    "letter": "S"
+  },
+  {
+    "id": "00824",
+    "description": "Svijany",
+    "country": "Czechia",
+    "letter": "S"
+  },
+  {
+    "id": "00825",
+    "description": "Svijany",
+    "country": "Czechia",
+    "letter": "S"
+  },
+  {
+    "id": "00826",
+    "description": "Silly",
+    "country": "Belgium",
+    "letter": "S"
+  },
+  {
+    "id": "00827",
+    "description": "Silly",
+    "country": "Belgium",
+    "letter": "S"
+  },
+  {
+    "id": "00828",
+    "description": "Solnice",
+    "country": "Czechia",
+    "letter": "S"
+  },
+  {
+    "id": "00829",
+    "description": "Snake River",
+    "country": "USA",
+    "letter": "S"
+  },
+  {
+    "id": "00830",
+    "description": "Svijany",
+    "country": "Czechia",
+    "letter": "S"
+  },
+  {
+    "id": "00831",
+    "description": "Svijany",
+    "country": "Czechia",
+    "letter": "S"
+  },
+  {
+    "id": "00832",
+    "description": "Svijany",
+    "country": "Czechia",
+    "letter": "S"
+  },
+  {
+    "id": "00833",
+    "description": "Seicha",
+    "country": "Czechia",
+    "letter": "S"
+  },
+  {
+    "id": "00834",
+    "description": "SUP",
+    "country": "Czechia",
+    "letter": "S"
+  },
+  {
+    "id": "00835",
+    "description": "SUP",
+    "country": "Czechia",
+    "letter": "S"
+  },
+  {
+    "id": "00836",
+    "description": "Schazenbrau",
+    "country": "Germany",
+    "letter": "S"
+  },
+  {
+    "id": "00837",
+    "description": "SQBRU",
+    "country": "Belgium",
+    "letter": "S"
+  },
+  {
+    "id": "00838",
+    "description": "Spejle",
+    "country": "Czechia",
+    "letter": "S"
+  },
+  {
+    "id": "00839",
+    "description": "Spacal",
+    "country": "Czechia",
+    "letter": "S"
+  },
+  {
+    "id": "00840",
+    "description": "Samson",
+    "country": "Czechia",
+    "letter": "S"
+  },
+  {
+    "id": "00841",
+    "description": "Super Bock",
+    "country": "Portugal",
+    "letter": "S"
+  },
+  {
+    "id": "00842",
+    "description": "Sv Norbert",
+    "country": "Czechia",
+    "letter": "S"
+  },
+  {
+    "id": "00843",
+    "description": "Stonebrewing",
+    "country": "Czechia",
+    "letter": "S"
+  },
+  {
+    "id": "00844",
+    "description": "Svabin",
+    "country": "Czechia",
+    "letter": "S"
+  },
+  {
+    "id": "00845",
+    "description": "Schweppes",
+    "country": "Switzerland",
+    "letter": "S"
+  },
+  {
+    "id": "00846",
+    "description": "Pepsi",
+    "country": "",
+    "letter": "P"
+  },
+  {
+    "id": "00847",
+    "description": "Probier",
+    "country": "Brazil",
+    "letter": "P"
+  },
+  {
+    "id": "00848",
+    "description": "Prazacka",
+    "country": "Czechia",
+    "letter": "P"
+  },
+  {
+    "id": "00849",
+    "description": "Pilsner Urquell",
+    "country": "Czechia",
+    "letter": "P"
+  },
+  {
+    "id": "00850",
+    "description": "Pilsner Urquell",
+    "country": "Czechia",
+    "letter": "P"
+  },
+  {
+    "id": "00851",
+    "description": "Perrier",
+    "country": "Belgium",
+    "letter": "P"
+  },
+  {
+    "id": "00852",
+    "description": "Perrier",
+    "country": "Belgium",
+    "letter": "P"
+  },
+  {
+    "id": "00853",
+    "description": "Pilsner Urquell",
+    "country": "Czechia",
+    "letter": "P"
+  },
+  {
+    "id": "00854",
+    "description": "Pilsner Urquell",
+    "country": "Czechia",
+    "letter": "P"
+  },
+  {
+    "id": "00855",
+    "description": "Pilsner Urquell",
+    "country": "Czechia",
+    "letter": "P"
+  },
+  {
+    "id": "00856",
+    "description": "Poctiva",
+    "country": "Czechia",
+    "letter": "P"
+  },
+  {
+    "id": "00857",
+    "description": "Podripsky",
+    "country": "Czechia",
+    "letter": "P"
+  },
+  {
+    "id": "00858",
+    "description": "Permon",
+    "country": "Czechia",
+    "letter": "P"
+  },
+  {
+    "id": "00859",
+    "description": "Pardubicky",
+    "country": "Czechia",
+    "letter": "P"
+  },
+  {
+    "id": "00860",
+    "description": "Pardubicky",
+    "country": "Czechia",
+    "letter": "P"
+  },
+  {
+    "id": "00861",
+    "description": "Pocernicky",
+    "country": "Czechia",
+    "letter": "P"
+  },
+  {
+    "id": "00862",
+    "description": "Peroni",
+    "country": "Netherlands",
+    "letter": "P"
+  },
+  {
+    "id": "00863",
+    "description": "Primator",
+    "country": "Czechia",
+    "letter": "P"
+  },
+  {
+    "id": "00864",
+    "description": "Primator",
+    "country": "Czechia",
+    "letter": "P"
+  },
+  {
+    "id": "00865",
+    "description": "Primator",
+    "country": "Czechia",
+    "letter": "P"
+  },
+  {
+    "id": "00866",
+    "description": "Pilsner Urquell",
+    "country": "Czechia",
+    "letter": "P"
+  },
+  {
+    "id": "00867",
+    "description": "Pilsner Urquell",
+    "country": "Czechia",
+    "letter": "P"
+  },
+  {
+    "id": "00868",
+    "description": "Pilsner Urquell",
+    "country": "Czechia",
+    "letter": "P"
+  },
+  {
+    "id": "00869",
+    "description": "Pilsner Urquell",
+    "country": "Czechia",
+    "letter": "P"
+  },
+  {
+    "id": "00870",
+    "description": "PID",
+    "country": "Czechia",
+    "letter": "P"
+  },
+  {
+    "id": "00871",
+    "description": "Nonkel Pater",
+    "country": "Belgium",
+    "letter": "N"
+  },
+  {
+    "id": "00872",
+    "description": "Prager Laffe",
+    "country": "Czechia",
+    "letter": "P"
+  },
+  {
+    "id": "00873",
+    "description": "Pronck",
+    "country": "Netherlands",
+    "letter": "P"
+  },
+  {
+    "id": "00874",
+    "description": "Petrus",
+    "country": "Czechia",
+    "letter": "P"
   }
 ]
