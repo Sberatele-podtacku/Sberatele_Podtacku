@@ -90,7 +90,7 @@
 
     function initFilters() {
       const alphaDiv = document.getElementById('alphaFilter');
-      ['all', ...'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('')].forEach(letter => {
+     ['all', ...'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split(''), 'empty'].forEach(letter => {
         const btn = document.createElement('button');
         btn.textContent = letter;
         btn.dataset.letter = letter;

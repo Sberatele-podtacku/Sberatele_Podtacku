@@ -139,7 +139,7 @@ id,description,country,letter
 00138,U2 Craft ,Czechia,U
 00139,Cerveny Vlk,Czechia,C
 00140,Volt Jablonecky,Czechia,V
-00141,Permon Brewery,,P
+00141,Permon Brewery,Czechia,P
 00142,Lobkowicz Pivovar,Czechia,L
 00143,Lobkowicz Pivovar,Czechia,L
 00144,Lobkowicz Pivovar,Czechia,L
@@ -365,7 +365,7 @@ id,description,country,letter
 00364,De Eeuwige Jeugd,Netherlands,D
 00365,De Eeuwige Jeugd,Netherlands,D
 00366,Draaimolen,Netherlands,D
-00367,,Czechia,XX
+00367,,Czechia,
 00368,Delirium Noel,Belgium,D
 00369,Forst,Italy,F
 00370,Forst,Italy,F
@@ -378,18 +378,18 @@ id,description,country,letter
 00377,Jupiler,Belgium,J
 00378,Eggenberg,Czechia,E
 00379,Einsiedler,Czechia,E
-00380,,Belgium,XX
+00380,,Belgium,
 00381,Duvel,Belgium,D
 00382,Duvel,Belgium,D
 00383,Duvel,Belgium,D
-00384,,Belgium,XX
+00384,,Belgium,
 00385,Nutrl,USA,N
 00386,Nutrl,USA,N
-00387,,Czechia,XX
-00388,,Czechia,XX
-00389,,Czechia,XX
-00390,,Netherlands,XX
-00391,,Poland,XX
+00387,,Czechia,
+00388,,Czechia,
+00389,,Czechia,
+00390,,Netherlands,
+00391,,Poland,
 00392,Heineken,Netherlands,H
 00393,Holsten,Germany,H
 00394,Hemingway Bar,Czechia,H
@@ -713,10 +713,10 @@ id,description,country,letter
 00712,Zichovec,Czechia,Z
 00713,Zlatopramen,Czechia,Z
 00714,Zlaty Bazant,Slovakia,Z
-00715,,Czechia,XX
-00716,,Czechia,XX
-00717,,Czechia,XX
-00718,,Czechia,XX
+00715,,Czechia,
+00716,,Czechia,
+00717,,Czechia,
+00718,,Czechia,
 00719,Beirao,Portugal,B
 00720,Pilsner Urquell,Czechia,P
 00721,Pilsner Urquell,Czechia,P
@@ -728,7 +728,7 @@ id,description,country,letter
 00727,Karlicek,Czechia,K
 00728,Lasagneria,Czechia,L
 00729,Karlicek,Czechia,K
-00730,,,XX
+00730,,,
 00731,Old Cock,Czechia,O
 00732,Old Cock,Czechia,O
 00733,Mangy Moose,USA,M
@@ -737,8 +737,8 @@ id,description,country,letter
 00736,Cesky Krumlov,Czechia,C
 00737,Laplace,Czechia,L
 00738,Lazensky,Czechia,L
-00739,,Belgium,XX
-00740,,Czechia,XX
+00739,,Belgium,
+00740,,Czechia,
 00741,Kofola,Czechia,K
 00742,Kofola,Czechia,K
 00743,Kofola,Czechia,K

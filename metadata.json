@@ -842,7 +842,7 @@
   {
     "id": "00141",
     "description": "Permon Brewery",
-    "country": "",
+    "country": "Czechia",
     "letter": "P"
   },
   {
@@ -2199,7 +2199,7 @@
     "id": "00367",
     "description": "",
     "country": "Czechia",
-    "letter": "XX"
+    "letter": ""
   },
   {
     "id": "00368",
@@ -2277,7 +2277,7 @@
     "id": "00380",
     "description": "",
     "country": "Belgium",
-    "letter": "XX"
+    "letter": ""
   },
   {
     "id": "00381",
@@ -2301,7 +2301,7 @@
     "id": "00384",
     "description": "",
     "country": "Belgium",
-    "letter": "XX"
+    "letter": ""
   },
   {
     "id": "00385",
@@ -2319,31 +2319,31 @@
     "id": "00387",
     "description": "",
     "country": "Czechia",
-    "letter": "XX"
+    "letter": ""
   },
   {
     "id": "00388",
     "description": "",
     "country": "Czechia",
-    "letter": "XX"
+    "letter": ""
   },
   {
     "id": "00389",
     "description": "",
     "country": "Czechia",
-    "letter": "XX"
+    "letter": ""
   },
   {
     "id": "00390",
     "description": "",
     "country": "Netherlands",
-    "letter": "XX"
+    "letter": ""
   },
   {
     "id": "00391",
     "description": "",
     "country": "Poland",
-    "letter": "XX"
+    "letter": ""
   },
   {
     "id": "00392",
@@ -4287,25 +4287,25 @@
     "id": "00715",
     "description": "",
     "country": "Czechia",
-    "letter": "XX"
+    "letter": ""
   },
   {
     "id": "00716",
     "description": "",
     "country": "Czechia",
-    "letter": "XX"
+    "letter": ""
   },
   {
     "id": "00717",
     "description": "",
     "country": "Czechia",
-    "letter": "XX"
+    "letter": ""
   },
   {
     "id": "00718",
     "description": "",
     "country": "Czechia",
-    "letter": "XX"
+    "letter": ""
   },
   {
     "id": "00719",
@@ -4377,7 +4377,7 @@
     "id": "00730",
     "description": "",
     "country": "",
-    "letter": "XX"
+    "letter": ""
   },
   {
     "id": "00731",
@@ -4431,13 +4431,13 @@
     "id": "00739",
     "description": "",
     "country": "Belgium",
-    "letter": "XX"
+    "letter": ""
   },
   {
     "id": "00740",
     "description": "",
     "country": "Czechia",
-    "letter": "XX"
+    "letter": ""
   },
   {
     "id": "00741",
