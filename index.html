@@ -95,13 +95,13 @@
 
     function initFilters() {
       const alphaDiv = document.getElementById('alphaFilter');
-     ['All', ...'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split(''), 'Empty'].forEach(letter => {
+     ['all', ...'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split(''), 'empty'].forEach(letter => {
         const btn = document.createElement('button');
         btn.textContent = letter;
         btn.dataset.letter = letter;
-        if (letter.toLowerCase() === 'all') btn.classList.add('active');
-btn.onclick = () => {
-  activeAlpha = letter.toLowerCase();
+        if(letter === 'all') btn.classList.add('active');
+        btn.onclick = () => {
+          activeAlpha = letter;
           document.querySelectorAll('.letters button').forEach(b=>b.classList.remove('active'));
           btn.classList.add('active');
           renderGallery();
@@ -111,13 +111,13 @@ btn.onclick = () => {
 
       const countryDiv = document.getElementById('countryFilter');
       const countries = Array.from(new Set(metadata.map(m => m.country).filter(c => c))).sort();
-      ['All', ...countries, 'Empty'].forEach(c => {
+      ['all', ...countries, 'empty'].forEach(c => {
         const btn = document.createElement('button');
         btn.textContent = c;
         btn.dataset.country = c;
-        if (c.toLowerCase() === 'all') btn.classList.add('active');
-btn.onclick = () => {
-  activeCountry = c.toLowerCase();
+        if(c === 'all') btn.classList.add('active');
+        btn.onclick = () => {
+          activeCountry = c;
           document.querySelectorAll('.countries button').forEach(b=>b.classList.remove('active'));
           btn.classList.add('active');
           renderGallery();
@@ -130,14 +130,10 @@ btn.onclick = () => {
       const gallery = document.getElementById('gallery');
       gallery.innerHTML = '';
 
-     let filtered = metadata.filter(m =>
-  (activeAlpha === 'all' || 
-   (activeAlpha === 'empty' && (!m.description || m.description.trim() === '' || m.letter === 'XX')) ||
-   ((m.description || '').charAt(0).toLowerCase() === activeAlpha)) &&
-  (activeCountry === 'all' || 
-   (activeCountry === 'empty' && (!m.country || m.country.trim() === '')) || 
-   (m.country || '').toLowerCase() === activeCountry)
-);
+      let filtered = metadata.filter(m =>
+        (activeAlpha === 'all' || (activeAlpha === 'empty' && (!m.description || m.description.trim() === '' || m.letter === 'XX')) || ((m.description || '').charAt(0).toUpperCase() === activeAlpha)) &&
+        (activeCountry === 'all' || (activeCountry === 'empty' && (!m.country || m.country.trim() === '')) || m.country === activeCountry)
+      );
 
       const withLetter = filtered
         .filter(m => m.description && /^[A-Z]/.test(m.description))
