@@ -83,56 +83,51 @@
       .then(res => res.ok ? res.json() : Promise.reject('Failed to fetch metadata.json'))
       .then(data => {
         metadata = data;
-        initFilters(data);
+        initFilters();
         renderGallery();
       })
       .catch(err => console.error('Error loading metadata:', err));
 
- function initFilters(data) {
-  // Alphabet filter
-  const alphabet = ['all', ...'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split(''), 'empty'];
-  const alphaContainer = document.querySelector('.filter-alpha');
-  alphabet.forEach(letter => {
-    const btn = document.createElement('button');
-    btn.textContent = letter;
-    btn.onclick = () => {
-      activeAlpha = letter;
-      updateActiveFilters();
-      renderGallery(data);
-    };
-    alphaContainer.appendChild(btn);
-  });
+    function initFilters() {
+      const alphaDiv = document.getElementById('alphaFilter');
+      ['all', ...'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('')].forEach(letter => {
+        const btn = document.createElement('button');
+        btn.textContent = letter;
+        btn.dataset.letter = letter;
+        if(letter === 'all') btn.classList.add('active');
+        btn.onclick = () => {
+          activeAlpha = letter;
+          document.querySelectorAll('.letters button').forEach(b=>b.classList.remove('active'));
+          btn.classList.add('active');
+          renderGallery();
+        };
+        alphaDiv.append(btn);
+      });
 
-  // Country filter
-  const countries = Array.from(new Set(data.map(m => m.country).filter(Boolean))).sort();
-  const countryContainer = document.querySelector('.filter-country');
-  ['all', ...countries, 'empty'].forEach(c => {
-    const btn = document.createElement('button');
-    btn.textContent = c;
-    btn.onclick = () => {
-      activeCountry = c;
-      updateActiveFilters();
-      renderGallery(data);
-    };
-    countryContainer.appendChild(btn);
-  });
-}
+      const countryDiv = document.getElementById('countryFilter');
+      const countries = Array.from(new Set(metadata.map(m => m.country).filter(c => c))).sort();
+      ['all', ...countries, 'empty'].forEach(c => {
+        const btn = document.createElement('button');
+        btn.textContent = c;
+        btn.dataset.country = c;
+        if(c === 'all') btn.classList.add('active');
+        btn.onclick = () => {
+          activeCountry = c;
+          document.querySelectorAll('.countries button').forEach(b=>b.classList.remove('active'));
+          btn.classList.add('active');
+          renderGallery();
+        };
+        countryDiv.append(btn);
+      });
+    }
 
     function renderGallery() {
       const gallery = document.getElementById('gallery');
       gallery.innerHTML = '';
 
       let filtered = metadata.filter(m =>
-        (
-  activeAlpha === 'all' ||
-  (activeAlpha === 'empty' && (!m.description || !/^[A-Z]/i.test(m.description))) ||
-  ((m.description || '').charAt(0).toUpperCase() === activeAlpha)
-)&&
-        (
-  activeCountry === 'all' ||
-  (activeCountry === 'empty' && (!m.country || m.country.trim() === '')) ||
-  m.country === activeCountry
-)
+        (activeAlpha === 'all' || (activeAlpha === 'empty' && (!m.description || m.description.trim() === '')) || ((m.description || '').charAt(0).toUpperCase() === activeAlpha)) &&
+        (activeCountry === 'all' || (activeCountry === 'empty' && (!m.country || m.country.trim() === '')) || m.country === activeCountry)
       );
 
       const withLetter = filtered
