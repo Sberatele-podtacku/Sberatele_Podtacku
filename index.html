@@ -48,7 +48,7 @@
     <img src="logos/logo1.png" alt="Logo" class="logo" />
     <h1>Beer Coaster Gallery</h1>
     <img src="logos/logo2.png" alt="Logo" class="logo" />
-    <div class="instructions">Click to Name to Zoom | Click Thumbnail to Flip</div>
+    <div class="instructions">Click Name to Zoom | Click Thumbnail to Flip</div>
   </header>
 
   <section class="filters">
@@ -95,7 +95,7 @@
 
     function initFilters() {
       const alphaDiv = document.getElementById('alphaFilter');
-     ['all', ...'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split(''), 'empty'].forEach(letter => {
+     ['All', ...'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split(''), 'Empty'].forEach(letter => {
         const btn = document.createElement('button');
         btn.textContent = letter;
         btn.dataset.letter = letter;
@@ -111,7 +111,7 @@
 
       const countryDiv = document.getElementById('countryFilter');
       const countries = Array.from(new Set(metadata.map(m => m.country).filter(c => c))).sort();
-      ['all', ...countries, 'empty'].forEach(c => {
+      ['All', ...countries, 'Empty'].forEach(c => {
         const btn = document.createElement('button');
         btn.textContent = c;
         btn.dataset.country = c;
