@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Beer Coaster Gallery</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
+    body { font-family: 'Open Sans', sans-serif; margin: 0; padding: 0; background: #f8f8f8; }
+    header { text-align: center; padding: 1rem; background: #fff; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+    header img.logo { height: 50px; margin: 0 1rem; vertical-align: middle; }
+    header h1 { display: inline-block; margin: 0; font-size: 1.8rem; font-weight: 600; }
+    .instructions { text-align: center; margin: 0.25rem 0; color: #555; font-size: 0.9rem; }
+
+    .filters { display: flex; flex-direction: column; align-items: center; gap: 1rem; margin: 1rem 0; }
+    .filters .alpha, .filters .country { display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap; }
+    .filters label { font-size: 1rem; font-weight: 600; }
+    .filters .letters button, .filters .countries button { background: #fff; border: 1px solid #ccc; border-radius: 4px; padding: 0.2rem 0.5rem; cursor: pointer; }
+    .filters .letters button.active, .filters .countries button.active { background: #007bff; color: #fff; border-color: #007bff; }
+
+    .count { text-align: center; margin: 0.5rem 0; font-weight: bold; color: #333; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 0.5rem; padding: 0 0.75rem 1rem; }
+    .tile { position: relative; background: #fff; border: 1px solid #ddd; border-radius: 12px; overflow: hidden; box-shadow: 0 1px 3px rgba(0,0,0,0.1); cursor: pointer;
+             display: flex; flex-direction: column; justify-content: space-between; }
+    .tile img { width: 100%; height: auto; display: block; border-radius: 8px 8px 0 0; }
+    .tile .thumb-flip { position: absolute; top: 8px; right: 8px; background: rgba(255,255,255,0.8); border: none; border-radius: 50%; width: 28px; height: 28px; cursor: pointer; font-size: 16px; line-height: 1; display: flex; align-items: center; justify-content: center; }
+    .tile figcaption { padding: 0.25rem 0.5rem; text-align: center; font-size: 0.7rem; color: #333; line-height: 1.1rem; height: 2.2rem; overflow: hidden; }
+
+    .overlay { position: fixed; inset: 0; background: rgba(0,0,0,0.8); display: none; align-items: center; justify-content: center; z-index: 1000; }
+    .overlay.active { display: flex; }
+    .overlay img { max-width: 90%; max-height: 90%; border-radius: 8px; cursor: pointer; }
+    .overlay .controls { position: absolute; bottom: 1rem; display: flex; gap: 1rem; }
+    .overlay .prev, .overlay .next, .overlay .flip, .overlay .close {
+      background: rgba(255,255,255,0.9); border: none; padding: 0.5rem 0.8rem; cursor: pointer;
+      border-radius: 4px; font-size: 0.9rem;
+    }
+
+    footer { text-align: center; padding: 1rem; font-size: 0.8rem; color: #666; background: #fff; }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="logos/logo1.png" alt="Logo" class="logo" />
+    <h1>Beer Coaster Gallery</h1>
+    <img src="logos/logo2.png" alt="Logo" class="logo" />
+    <div class="instructions">Click to Name to Zoom | Click Thumbnail to Flip</div>
+  </header>
+
+  <section class="filters">
+    <div class="alpha">
+      <label>A–Z:</label>
+      <div class="letters" id="alphaFilter"></div>
+    </div>
+    <div class="country">
+      <label>Country where collected:</label>
+      <div class="countries" id="countryFilter"></div>
+    </div>
+  </section>
+
+  <div class="count">Total coasters: <span id="totalCount">0</span></div>
+
+  <main class="grid" id="gallery"></main>
+
+  <div class="overlay" id="lightbox">
+    <img src="" alt="Enlarged Coaster" id="lightboxImg" />
+    <div class="controls">
+      <button class="prev" id="prevBtn">◀ Prev</button>
+      <button class="flip" id="flipBtn">🔄 Flip</button>
+      <button class="next" id="nextBtn">Next ▶</button>
+      <button class="close" id="closeBtn">✕ Close</button>
+    </div>
+  </div>
+
+  <footer>Done with the support of ChatGPT</footer>
+
+  <script>
+    let metadata = [];
+    let activeAlpha = 'all';
+    let activeCountry = 'all';
+    let filteredIds = [];
+
+    fetch('./metadata.json')
+      .then(res => res.ok ? res.json() : Promise.reject('Failed to fetch metadata.json'))
+      .then(data => {
+        metadata = data;
+        initFilters();
+        renderGallery();
+      })
+      .catch(err => console.error('Error loading metadata:', err));
+
+    function initFilters() {
+      const alphaDiv = document.getElementById('alphaFilter');
+      ['all', ...'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('')].forEach(letter => {
+        const btn = document.createElement('button');
+        btn.textContent = letter;
+        btn.dataset.letter = letter;
+        if(letter === 'all') btn.classList.add('active');
+        btn.onclick = () => {
+          activeAlpha = letter;
+          document.querySelectorAll('.letters button').forEach(b=>b.classList.remove('active'));
+          btn.classList.add('active');
+          renderGallery();
+        };
+        alphaDiv.append(btn);
+      });
+
+      const countryDiv = document.getElementById('countryFilter');
+      const countries = Array.from(new Set(metadata.map(m => m.country).filter(c => c))).sort();
+      ['all', ...countries].forEach(c => {
+        const btn = document.createElement('button');
+        btn.textContent = c;
+        btn.dataset.country = c;
+        if(c === 'all') btn.classList.add('active');
+        btn.onclick = () => {
+          activeCountry = c;
+          document.querySelectorAll('.countries button').forEach(b=>b.classList.remove('active'));
+          btn.classList.add('active');
+          renderGallery();
+        };
+        countryDiv.append(btn);
+      });
+    }
+
+    function renderGallery() {
+      const gallery = document.getElementById('gallery');
+      gallery.innerHTML = '';
+
+      let filtered = metadata.filter(m =>
+        (activeAlpha === 'all' || (m.description||'').charAt(0).toUpperCase() === activeAlpha) &&
+        (activeCountry === 'all' || m.country === activeCountry)
+      );
+
+      const withLetter = filtered
+        .filter(m => m.description && /^[A-Z]/.test(m.description))
+        .sort((a,b) => a.description.localeCompare(b.description));
+      const noLetter = filtered
+        .filter(m => !m.description || !/^[A-Z]/.test(m.description))
+        .sort((a,b) => (a.description||'').localeCompare(b.description));
+      filtered = [...withLetter, ...noLetter];
+
+      filteredIds = filtered.map(m => m.id);
+      document.getElementById('totalCount').textContent = filteredIds.length;
+
+      filtered.forEach(m => {
+        const fig = document.createElement('figure'); fig.className = 'tile';
+
+        const img = document.createElement('img');
+        img.alt = m.description;
+        img.loading = 'lazy';
+        img.dataset.frontSrc = `images/thumbs/${m.id}_front.webp`;
+        img.dataset.backSrc  = `images/thumbs/${m.id}_back.webp`;
+        img.dataset.side     = 'front';
+        img.src = img.dataset.frontSrc;
+       
+        // flip thumbnail on click
+        img.onclick = e => { e.stopPropagation(); const side = img.dataset.side === 'front' ? 'back' : 'front'; img.dataset.side = side; img.src = side === 'front' ? img.dataset.frontSrc : img.dataset.backSrc; };
+        fig.append(img);
+
+        const flipBtn = document.createElement('button');
+        flipBtn.className = 'thumb-flip';
+        flipBtn.title = 'Flip thumbnail';
+        flipBtn.innerHTML = '🔄';
+        flipBtn.onclick = e => { e.stopPropagation(); img.click(); };
+        fig.append(flipBtn);
+
+        const cap = document.createElement('figcaption'); cap.textContent = m.description || '';
+        // open lightbox on description click
+        cap.onclick = () => openLightbox(m.id, img.dataset.side);
+        fig.append(cap);
+
+        gallery.append(fig);
+      });
+    }
+
+    function openLightbox(id, side) {
+      const imgEl = document.getElementById('lightboxImg');
+      imgEl.src = `images/${id}_${side}.webp`;
+      window.currentSide = side;
+      window.currentId = id;
+      document.getElementById('lightbox').classList.add('active');
+    }
+
+    document.getElementById('closeBtn').onclick = () => document.getElementById('lightbox').classList.remove('active');
+    document.getElementById('prevBtn').onclick = () => navigateLightbox(-1);
+    document.getElementById('nextBtn').onclick = () => navigateLightbox(1);
+    document.getElementById('flipBtn').onclick = () => {
+      const nextSide = window.currentSide === 'front' ? 'back' : 'front';
+      openLightbox(window.currentId, nextSide);
+    };
+
+    function navigateLightbox(direction) {
+      const idx = filteredIds.indexOf(window.currentId);
+      const newIdx = (idx + direction + filteredIds.length) % filteredIds.length;
+      openLightbox(filteredIds[newIdx], 'front');
+    }
+
+    document.getElementById('lightbox').addEventListener('click', e => {
+      if(e.target.id === 'lightbox') document.getElementById('lightbox').classList.remove('active');
+    });
+
+    document.getElementById('lightboxImg').addEventListener('click', () => document.getElementById('flipBtn').click());
+
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('/sw.js')
+          .then(reg => console.log('SW registered:', reg.scope))
+          .catch(err => console.error('SW failed:', err));
+      });
+    }
+  </script>
+</body>
+</html>

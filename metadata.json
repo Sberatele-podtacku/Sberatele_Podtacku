@@ -1,0 +1,4892 @@
+[
+  {
+    "id": "00001",
+    "description": "Brasileiro",
+    "country": "Czechia",
+    "letter": "B"
+  },
+  {
+    "id": "00002",
+    "description": "Groove Bar",
+    "country": "Czechia",
+    "letter": "G"
+  },
+  {
+    "id": "00003",
+    "description": "Gulpener",
+    "country": "Netherlands",
+    "letter": "G"
+  },
+  {
+    "id": "00004",
+    "description": "Gambrinus",
+    "country": "Czechia",
+    "letter": "G"
+  },
+  {
+    "id": "00005",
+    "description": "Grimbergen",
+    "country": "Belgium",
+    "letter": "G"
+  },
+  {
+    "id": "00006",
+    "description": "Golem",
+    "country": "Czechia",
+    "letter": "G"
+  },
+  {
+    "id": "00007",
+    "description": "Grand Mir",
+    "country": "Belgium",
+    "letter": "G"
+  },
+  {
+    "id": "00008",
+    "description": "Golden Bauch",
+    "country": "Brazil",
+    "letter": "G"
+  },
+  {
+    "id": "00009",
+    "description": "Gefragt",
+    "country": "Germany",
+    "letter": "G"
+  },
+  {
+    "id": "00010",
+    "description": "Gulden Draak",
+    "country": "Czechia",
+    "letter": "G"
+  },
+  {
+    "id": "00011",
+    "description": "Grolsch",
+    "country": "Netherlands",
+    "letter": "G"
+  },
+  {
+    "id": "00012",
+    "description": "Grolsch",
+    "country": "Netherlands",
+    "letter": "G"
+  },
+  {
+    "id": "00013",
+    "description": "Guinness",
+    "country": "Ireland",
+    "letter": "G"
+  },
+  {
+    "id": "00014",
+    "description": "Guinness",
+    "country": "Ireland",
+    "letter": "G"
+  },
+  {
+    "id": "00015",
+    "description": "Guinness",
+    "country": "Ireland",
+    "letter": "G"
+  },
+  {
+    "id": "00016",
+    "description": "Guinness",
+    "country": "Ireland",
+    "letter": "G"
+  },
+  {
+    "id": "00017",
+    "description": "Gebrouwen door Vrouwen",
+    "country": "Netherlands",
+    "letter": "G"
+  },
+  {
+    "id": "00018",
+    "description": "Gambrinus",
+    "country": "Czechia",
+    "letter": "G"
+  },
+  {
+    "id": "00019",
+    "description": "Gambrinus",
+    "country": "Czechia",
+    "letter": "G"
+  },
+  {
+    "id": "00020",
+    "description": "Gambrinus",
+    "country": "Czechia",
+    "letter": "G"
+  },
+  {
+    "id": "00021",
+    "description": "Guinness",
+    "country": "Ireland",
+    "letter": "G"
+  },
+  {
+    "id": "00022",
+    "description": "Guinness",
+    "country": "Ireland",
+    "letter": "G"
+  },
+  {
+    "id": "00023",
+    "description": "Gilded Iguana",
+    "country": "Costa Rica",
+    "letter": "G"
+  },
+  {
+    "id": "00024",
+    "description": "Maisel",
+    "country": "Germany",
+    "letter": "M"
+  },
+  {
+    "id": "00025",
+    "description": "Max Haus",
+    "country": "Brazil",
+    "letter": "M"
+  },
+  {
+    "id": "00026",
+    "description": "Maes",
+    "country": "Belgium",
+    "letter": "M"
+  },
+  {
+    "id": "00027",
+    "description": "Moby Dick",
+    "country": "Italy",
+    "letter": "M"
+  },
+  {
+    "id": "00028",
+    "description": "Monchshof",
+    "country": "Germany",
+    "letter": "M"
+  },
+  {
+    "id": "00029",
+    "description": "Maneblusser",
+    "country": "Belgium",
+    "letter": "M"
+  },
+  {
+    "id": "00030",
+    "description": "Mamlasù",
+    "country": "Czechia",
+    "letter": "M"
+  },
+  {
+    "id": "00031",
+    "description": "McGuires",
+    "country": "USA",
+    "letter": "M"
+  },
+  {
+    "id": "00032",
+    "description": "Mazette",
+    "country": "Belgium",
+    "letter": "M"
+  },
+  {
+    "id": "00033",
+    "description": "Mort Subite",
+    "country": "Belgium",
+    "letter": "M"
+  },
+  {
+    "id": "00034",
+    "description": "Birra Moretti",
+    "country": "Italy",
+    "letter": "B"
+  },
+  {
+    "id": "00035",
+    "description": "Maisel",
+    "country": "Germany",
+    "letter": "M"
+  },
+  {
+    "id": "00036",
+    "description": "Mestansky",
+    "country": "Czechia",
+    "letter": "M"
+  },
+  {
+    "id": "00037",
+    "description": "Mahou",
+    "country": "Spain",
+    "letter": "M"
+  },
+  {
+    "id": "00038",
+    "description": "Magners",
+    "country": "Ireland",
+    "letter": "M"
+  },
+  {
+    "id": "00039",
+    "description": "Michala Restaurace",
+    "country": "Czechia",
+    "letter": "M"
+  },
+  {
+    "id": "00040",
+    "description": "Moravia Pivovar",
+    "country": "Czechia",
+    "letter": "M"
+  },
+  {
+    "id": "00041",
+    "description": "Moravsky Zizkov Pivovar",
+    "country": "Czechia",
+    "letter": "M"
+  },
+  {
+    "id": "00042",
+    "description": "M",
+    "country": "",
+    "letter": "M"
+  },
+  {
+    "id": "00043",
+    "description": "Mokum",
+    "country": "Netherlands",
+    "letter": "M"
+  },
+  {
+    "id": "00044",
+    "description": "Krkonossky Medved",
+    "country": "Czechia",
+    "letter": "K"
+  },
+  {
+    "id": "00045",
+    "description": "Mikalido",
+    "country": "Germany",
+    "letter": "M"
+  },
+  {
+    "id": "00046",
+    "description": "Munchner Bier",
+    "country": "Germany",
+    "letter": "M"
+  },
+  {
+    "id": "00047",
+    "description": "Oedipus",
+    "country": "Netherlands",
+    "letter": "O"
+  },
+  {
+    "id": "00048",
+    "description": "Krkonossky Medved",
+    "country": "Czechia",
+    "letter": "K"
+  },
+  {
+    "id": "00049",
+    "description": "Mercuria",
+    "country": "Czechia",
+    "letter": "M"
+  },
+  {
+    "id": "00050",
+    "description": "Beer Experience",
+    "country": "Spain",
+    "letter": "B"
+  },
+  {
+    "id": "00051",
+    "description": "Dorada",
+    "country": "Spain",
+    "letter": "D"
+  },
+  {
+    "id": "00052",
+    "description": "Estrella Galicia",
+    "country": "Spain",
+    "letter": "E"
+  },
+  {
+    "id": "00053",
+    "description": "Cervezas 1906",
+    "country": "Spain",
+    "letter": "C"
+  },
+  {
+    "id": "00054",
+    "description": "Estrella Damm",
+    "country": "Spain",
+    "letter": "E"
+  },
+  {
+    "id": "00055",
+    "description": "Heineken",
+    "country": "Netherlands",
+    "letter": "H"
+  },
+  {
+    "id": "00056",
+    "description": "Tropical",
+    "country": "Spain",
+    "letter": "T"
+  },
+  {
+    "id": "00057",
+    "description": "Alhambra",
+    "country": "Spain",
+    "letter": "A"
+  },
+  {
+    "id": "00058",
+    "description": "Cruzcampo",
+    "country": "Spain",
+    "letter": "C"
+  },
+  {
+    "id": "00059",
+    "description": "Mahou",
+    "country": "Spain",
+    "letter": "M"
+  },
+  {
+    "id": "00060",
+    "description": "Tropical",
+    "country": "Spain",
+    "letter": "T"
+  },
+  {
+    "id": "00061",
+    "description": "Warsteiner",
+    "country": "Spain",
+    "letter": "W"
+  },
+  {
+    "id": "00062",
+    "description": "El Aguila",
+    "country": "Spain",
+    "letter": "E"
+  },
+  {
+    "id": "00063",
+    "description": "Tropical",
+    "country": "Spain",
+    "letter": "T"
+  },
+  {
+    "id": "00064",
+    "description": "Canarias Viva",
+    "country": "Spain",
+    "letter": "C"
+  },
+  {
+    "id": "00065",
+    "description": "Alhambra",
+    "country": "Spain",
+    "letter": "A"
+  },
+  {
+    "id": "00066",
+    "description": "Dorada",
+    "country": "Spain",
+    "letter": "D"
+  },
+  {
+    "id": "00067",
+    "description": "TAJ Rooftop",
+    "country": "Spain",
+    "letter": "T"
+  },
+  {
+    "id": "00068",
+    "description": "Cerveny Jelen",
+    "country": "Czechia",
+    "letter": "C"
+  },
+  {
+    "id": "00069",
+    "description": "Kosice Pivovar",
+    "country": "Slovakia",
+    "letter": "K"
+  },
+  {
+    "id": "00070",
+    "description": "Kosice Pivovar",
+    "country": "Slovakia",
+    "letter": "K"
+  },
+  {
+    "id": "00071",
+    "description": "Kaltenecker Pivovar",
+    "country": "Slovakia",
+    "letter": "K"
+  },
+  {
+    "id": "00072",
+    "description": "Starobrno",
+    "country": "Czechia",
+    "letter": "S"
+  },
+  {
+    "id": "00073",
+    "description": "Pilsner Urquell",
+    "country": "Czechia",
+    "letter": "P"
+  },
+  {
+    "id": "00074",
+    "description": "Pilsner Urquell",
+    "country": "Czechia",
+    "letter": "P"
+  },
+  {
+    "id": "00075",
+    "description": "Kamenice",
+    "country": "Czechia",
+    "letter": "K"
+  },
+  {
+    "id": "00076",
+    "description": "Louka Pivovar",
+    "country": "Czechia",
+    "letter": "L"
+  },
+  {
+    "id": "00077",
+    "description": "Lipton",
+    "country": "",
+    "letter": "L"
+  },
+  {
+    "id": "00078",
+    "description": "Lobec Pivovar",
+    "country": "Czechia",
+    "letter": "L"
+  },
+  {
+    "id": "00079",
+    "description": "Lobec Pivovar",
+    "country": "Czechia",
+    "letter": "L"
+  },
+  {
+    "id": "00080",
+    "description": "Litovel",
+    "country": "Czechia",
+    "letter": "L"
+  },
+  {
+    "id": "00081",
+    "description": "Lucky Drop Malostrana",
+    "country": "Czechia",
+    "letter": "L"
+  },
+  {
+    "id": "00082",
+    "description": "Moravia Pivovar",
+    "country": "Czechia",
+    "letter": "M"
+  },
+  {
+    "id": "00083",
+    "description": "Landwehr-Brau",
+    "country": "Germany",
+    "letter": "L"
+  },
+  {
+    "id": "00084",
+    "description": "Uiltje",
+    "country": "Netherlands",
+    "letter": "U"
+  },
+  {
+    "id": "00085",
+    "description": "Stelz",
+    "country": "Netherlands",
+    "letter": "S"
+  },
+  {
+    "id": "00086",
+    "description": "Steiger",
+    "country": "Slovakia",
+    "letter": "S"
+  },
+  {
+    "id": "00087",
+    "description": "Steiger",
+    "country": "Slovakia",
+    "letter": "S"
+  },
+  {
+    "id": "00088",
+    "description": "Medved Humensky Pivovar",
+    "country": "Slovakia",
+    "letter": "M"
+  },
+  {
+    "id": "00089",
+    "description": "Gambrinus",
+    "country": "Czechia",
+    "letter": "G"
+  },
+  {
+    "id": "00090",
+    "description": "Kofola",
+    "country": "Slovakia",
+    "letter": "K"
+  },
+  {
+    "id": "00091",
+    "description": "Tipos",
+    "country": "Slovakia",
+    "letter": "T"
+  },
+  {
+    "id": "00092",
+    "description": "Trenciansky Lanius Pivovar",
+    "country": "Slovakia",
+    "letter": "T"
+  },
+  {
+    "id": "00093",
+    "description": "Trenciansky Lanius Pivovar",
+    "country": "Slovakia",
+    "letter": "T"
+  },
+  {
+    "id": "00094",
+    "description": "Trenciansky Lanius Pivovar",
+    "country": "Slovakia",
+    "letter": "T"
+  },
+  {
+    "id": "00095",
+    "description": "Trenciansky Lanius Pivovar",
+    "country": "Slovakia",
+    "letter": "T"
+  },
+  {
+    "id": "00096",
+    "description": "Trenciansky Lanius Pivovar",
+    "country": "Slovakia",
+    "letter": "T"
+  },
+  {
+    "id": "00097",
+    "description": "Trenciansky Lanius Pivovar",
+    "country": "Slovakia",
+    "letter": "T"
+  },
+  {
+    "id": "00098",
+    "description": "Trenciansky Lanius Pivovar",
+    "country": "Slovakia",
+    "letter": "T"
+  },
+  {
+    "id": "00099",
+    "description": "Trenciansky Lanius Pivovar",
+    "country": "Slovakia",
+    "letter": "T"
+  },
+  {
+    "id": "00100",
+    "description": "Klubovna",
+    "country": "Czechia",
+    "letter": "K"
+  },
+  {
+    "id": "00101",
+    "description": "Bradac Slobodny Pivovar",
+    "country": "Slovakia",
+    "letter": "B"
+  },
+  {
+    "id": "00102",
+    "description": "Tripel Danvers",
+    "country": "Belgium",
+    "letter": "T"
+  },
+  {
+    "id": "00103",
+    "description": "Steiger",
+    "country": "Slovakia",
+    "letter": "S"
+  },
+  {
+    "id": "00104",
+    "description": "Uiltje",
+    "country": "Netherlands",
+    "letter": "U"
+  },
+  {
+    "id": "00105",
+    "description": "Grolsch",
+    "country": "Netherlands",
+    "letter": "G"
+  },
+  {
+    "id": "00106",
+    "description": "Bavaria",
+    "country": "Netherlands",
+    "letter": "B"
+  },
+  {
+    "id": "00107",
+    "description": "Vila 63",
+    "country": "Czechia",
+    "letter": "V"
+  },
+  {
+    "id": "00108",
+    "description": "Pivoteka.cz",
+    "country": "Czechia",
+    "letter": "P"
+  },
+  {
+    "id": "00109",
+    "description": "Bernard",
+    "country": "Czechia",
+    "letter": "B"
+  },
+  {
+    "id": "00110",
+    "description": "Libertas",
+    "country": "Czechia",
+    "letter": "L"
+  },
+  {
+    "id": "00111",
+    "description": "Pivoboard",
+    "country": "Czechia",
+    "letter": "P"
+  },
+  {
+    "id": "00112",
+    "description": "Obora",
+    "country": "Czechia",
+    "letter": "O"
+  },
+  {
+    "id": "00113",
+    "description": "Krusovice",
+    "country": "Czechia",
+    "letter": "K"
+  },
+  {
+    "id": "00114",
+    "description": "Pivoteka.cz",
+    "country": "Czechia",
+    "letter": "P"
+  },
+  {
+    "id": "00115",
+    "description": "Pivoteka.cz",
+    "country": "Czechia",
+    "letter": "P"
+  },
+  {
+    "id": "00116",
+    "description": "Pivoteka.cz",
+    "country": "Czechia",
+    "letter": "P"
+  },
+  {
+    "id": "00117",
+    "description": "Rezidenti1",
+    "country": "Czechia",
+    "letter": "R"
+  },
+  {
+    "id": "00118",
+    "description": "Vila 63",
+    "country": "Czechia",
+    "letter": "V"
+  },
+  {
+    "id": "00119",
+    "description": "Lobkowicz Pivovar",
+    "country": "Czechia",
+    "letter": "L"
+  },
+  {
+    "id": "00120",
+    "description": "Vila 63",
+    "country": "Czechia",
+    "letter": "V"
+  },
+  {
+    "id": "00121",
+    "description": "Topsil",
+    "country": "Czechia",
+    "letter": "T"
+  },
+  {
+    "id": "00122",
+    "description": "Clock",
+    "country": "Czechia",
+    "letter": "C"
+  },
+  {
+    "id": "00123",
+    "description": "Kamenice",
+    "country": "Czechia",
+    "letter": "K"
+  },
+  {
+    "id": "00124",
+    "description": "FH Prager",
+    "country": "Czechia",
+    "letter": "F"
+  },
+  {
+    "id": "00125",
+    "description": "FH Prager",
+    "country": "Czechia",
+    "letter": "F"
+  },
+  {
+    "id": "00126",
+    "description": "Cerny Medved Pivovar",
+    "country": "Czechia",
+    "letter": "C"
+  },
+  {
+    "id": "00127",
+    "description": "Cerna Barbora",
+    "country": "Czechia",
+    "letter": "C"
+  },
+  {
+    "id": "00128",
+    "description": "Ostravar",
+    "country": "Czechia",
+    "letter": "O"
+  },
+  {
+    "id": "00129",
+    "description": "Mandarin Oriental",
+    "country": "Switzerland",
+    "letter": "M"
+  },
+  {
+    "id": "00130",
+    "description": "Leffe",
+    "country": "Belgium",
+    "letter": "L"
+  },
+  {
+    "id": "00131",
+    "description": "Leffe",
+    "country": "Belgium",
+    "letter": "L"
+  },
+  {
+    "id": "00132",
+    "description": "Leffe",
+    "country": "Belgium",
+    "letter": "L"
+  },
+  {
+    "id": "00133",
+    "description": "Strakonice Pivovar",
+    "country": "Czechia",
+    "letter": "S"
+  },
+  {
+    "id": "00134",
+    "description": "Ricansky Pivovar",
+    "country": "Czechia",
+    "letter": "R"
+  },
+  {
+    "id": "00135",
+    "description": "Pilsner Urquell",
+    "country": "Czechia",
+    "letter": "P"
+  },
+  {
+    "id": "00136",
+    "description": "Regionova",
+    "country": "Czechia",
+    "letter": "R"
+  },
+  {
+    "id": "00137",
+    "description": "Bakalar",
+    "country": "Czechia",
+    "letter": "B"
+  },
+  {
+    "id": "00138",
+    "description": "U2 Craft ",
+    "country": "Czechia",
+    "letter": "U"
+  },
+  {
+    "id": "00139",
+    "description": "Cerveny Vlk",
+    "country": "Czechia",
+    "letter": "C"
+  },
+  {
+    "id": "00140",
+    "description": "Volt Jablonecky",
+    "country": "Czechia",
+    "letter": "V"
+  },
+  {
+    "id": "00141",
+    "description": "Permon Brewery",
+    "country": "",
+    "letter": "P"
+  },
+  {
+    "id": "00142",
+    "description": "Lobkowicz Pivovar",
+    "country": "Czechia",
+    "letter": "L"
+  },
+  {
+    "id": "00143",
+    "description": "Lobkowicz Pivovar",
+    "country": "Czechia",
+    "letter": "L"
+  },
+  {
+    "id": "00144",
+    "description": "Lobkowicz Pivovar",
+    "country": "Czechia",
+    "letter": "L"
+  },
+  {
+    "id": "00145",
+    "description": "Lowlander",
+    "country": "Netherlands",
+    "letter": "L"
+  },
+  {
+    "id": "00146",
+    "description": "Lowlander",
+    "country": "Netherlands",
+    "letter": "L"
+  },
+  {
+    "id": "00147",
+    "description": "Lucifer",
+    "country": "Belgium",
+    "letter": "L"
+  },
+  {
+    "id": "00148",
+    "description": "Litovel",
+    "country": "Czechia",
+    "letter": "L"
+  },
+  {
+    "id": "00149",
+    "description": "Leffe",
+    "country": "Belgium",
+    "letter": "L"
+  },
+  {
+    "id": "00150",
+    "description": "Zlaty Bazant",
+    "country": "Slovakia",
+    "letter": "Z"
+  },
+  {
+    "id": "00151",
+    "description": "Leffe",
+    "country": "Belgium",
+    "letter": "L"
+  },
+  {
+    "id": "00152",
+    "description": "Libertas",
+    "country": "Czechia",
+    "letter": "L"
+  },
+  {
+    "id": "00153",
+    "description": "Lowlander",
+    "country": "Netherlands",
+    "letter": "L"
+  },
+  {
+    "id": "00154",
+    "description": "Lowlander",
+    "country": "Netherlands",
+    "letter": "L"
+  },
+  {
+    "id": "00155",
+    "description": "Lowlander",
+    "country": "Netherlands",
+    "letter": "L"
+  },
+  {
+    "id": "00156",
+    "description": "Louka Pivovar",
+    "country": "Czechia",
+    "letter": "L"
+  },
+  {
+    "id": "00157",
+    "description": "Lobkowicz Pivovar",
+    "country": "Czechia",
+    "letter": "L"
+  },
+  {
+    "id": "00158",
+    "description": "Lobkowicz Pivovar",
+    "country": "Czechia",
+    "letter": "L"
+  },
+  {
+    "id": "00159",
+    "description": "Lobkowicz Pivovar",
+    "country": "Czechia",
+    "letter": "L"
+  },
+  {
+    "id": "00160",
+    "description": "Lobkowicz Pivovar",
+    "country": "Czechia",
+    "letter": "L"
+  },
+  {
+    "id": "00161",
+    "description": "Hostomice",
+    "country": "Czechia",
+    "letter": "H"
+  },
+  {
+    "id": "00162",
+    "description": "Hostomice",
+    "country": "Czechia",
+    "letter": "H"
+  },
+  {
+    "id": "00163",
+    "description": "Hostomice",
+    "country": "Czechia",
+    "letter": "H"
+  },
+  {
+    "id": "00164",
+    "description": "Lagunitas",
+    "country": "USA",
+    "letter": "L"
+  },
+  {
+    "id": "00165",
+    "description": "Lagunitas",
+    "country": "USA",
+    "letter": "L"
+  },
+  {
+    "id": "00166",
+    "description": "Lagunitas",
+    "country": "USA",
+    "letter": "L"
+  },
+  {
+    "id": "00167",
+    "description": "Puntigamer",
+    "country": "Austria",
+    "letter": "P"
+  },
+  {
+    "id": "00168",
+    "description": "Gosser",
+    "country": "Austria",
+    "letter": "G"
+  },
+  {
+    "id": "00169",
+    "description": "Zajko",
+    "country": "Czechia",
+    "letter": "Z"
+  },
+  {
+    "id": "00170",
+    "description": "Hostivar",
+    "country": "Czechia",
+    "letter": "H"
+  },
+  {
+    "id": "00171",
+    "description": "Hostivar",
+    "country": "Czechia",
+    "letter": "H"
+  },
+  {
+    "id": "00172",
+    "description": "Lucni Bouda",
+    "country": "Czechia",
+    "letter": "L"
+  },
+  {
+    "id": "00173",
+    "description": "Lobkowicz Pivovar",
+    "country": "Czechia",
+    "letter": "L"
+  },
+  {
+    "id": "00174",
+    "description": "Legendes",
+    "country": "Belgium",
+    "letter": "L"
+  },
+  {
+    "id": "00175",
+    "description": "Dewars",
+    "country": "Spain",
+    "letter": "D"
+  },
+  {
+    "id": "00176",
+    "description": "Alfa Hellenic",
+    "country": "Greece",
+    "letter": "A"
+  },
+  {
+    "id": "00177",
+    "description": "Muflon",
+    "country": "Czechia",
+    "letter": "M"
+  },
+  {
+    "id": "00178",
+    "description": "Brustok",
+    "country": "Czechia",
+    "letter": "B"
+  },
+  {
+    "id": "00179",
+    "description": "Alera",
+    "country": "",
+    "letter": "A"
+  },
+  {
+    "id": "00180",
+    "description": "Svihov",
+    "country": "Czechia",
+    "letter": "S"
+  },
+  {
+    "id": "00181",
+    "description": "Beranuv",
+    "country": "Czechia",
+    "letter": "B"
+  },
+  {
+    "id": "00182",
+    "description": "Beranuv",
+    "country": "Czechia",
+    "letter": "B"
+  },
+  {
+    "id": "00183",
+    "description": "Erdinger",
+    "country": "Germany",
+    "letter": "E"
+  },
+  {
+    "id": "00184",
+    "description": "Amstel",
+    "country": "Greece",
+    "letter": "A"
+  },
+  {
+    "id": "00185",
+    "description": "Mestansky",
+    "country": "Czechia",
+    "letter": "M"
+  },
+  {
+    "id": "00186",
+    "description": "Mythos",
+    "country": "Greece",
+    "letter": "M"
+  },
+  {
+    "id": "00187",
+    "description": "Maisel",
+    "country": "Germany",
+    "letter": "M"
+  },
+  {
+    "id": "00188",
+    "description": "Ename",
+    "country": "Belgium",
+    "letter": "E"
+  },
+  {
+    "id": "00189",
+    "description": "Radeberger",
+    "country": "Germany",
+    "letter": "R"
+  },
+  {
+    "id": "00190",
+    "description": "Obora",
+    "country": "Czechia",
+    "letter": "O"
+  },
+  {
+    "id": "00191",
+    "description": "Obora",
+    "country": "Czechia",
+    "letter": "O"
+  },
+  {
+    "id": "00192",
+    "description": "Bistro4",
+    "country": "Czechia",
+    "letter": "B"
+  },
+  {
+    "id": "00193",
+    "description": "Hejkal",
+    "country": "Czechia",
+    "letter": "H"
+  },
+  {
+    "id": "00194",
+    "description": "Herold",
+    "country": "Czechia",
+    "letter": "H"
+  },
+  {
+    "id": "00195",
+    "description": "Brevnovsky Klaster",
+    "country": "Czechia",
+    "letter": "B"
+  },
+  {
+    "id": "00196",
+    "description": "Koli",
+    "country": "Czechia",
+    "letter": "K"
+  },
+  {
+    "id": "00197",
+    "description": "Zlata Krava",
+    "country": "Czechia",
+    "letter": "Z"
+  },
+  {
+    "id": "00198",
+    "description": "Starobrno",
+    "country": "Czechia",
+    "letter": "S"
+  },
+  {
+    "id": "00199",
+    "description": "Poutnik Pelhrimov",
+    "country": "Czechia",
+    "letter": "P"
+  },
+  {
+    "id": "00200",
+    "description": "Grasel",
+    "country": "Czechia",
+    "letter": "G"
+  },
+  {
+    "id": "00201",
+    "description": "Pegas",
+    "country": "Czechia",
+    "letter": "P"
+  },
+  {
+    "id": "00202",
+    "description": "Slavkovsky",
+    "country": "Czechia",
+    "letter": "S"
+  },
+  {
+    "id": "00203",
+    "description": "Slavkovsky",
+    "country": "Czechia",
+    "letter": "S"
+  },
+  {
+    "id": "00204",
+    "description": "Kos",
+    "country": "Czechia",
+    "letter": "K"
+  },
+  {
+    "id": "00205",
+    "description": "Kasteel",
+    "country": "Netherlands",
+    "letter": "K"
+  },
+  {
+    "id": "00206",
+    "description": "Budvar",
+    "country": "Czechia",
+    "letter": "B"
+  },
+  {
+    "id": "00207",
+    "description": "Letajici",
+    "country": "Czechia",
+    "letter": "L"
+  },
+  {
+    "id": "00208",
+    "description": "Topolsky",
+    "country": "Czechia",
+    "letter": "T"
+  },
+  {
+    "id": "00209",
+    "description": "Rotor",
+    "country": "Czechia",
+    "letter": "R"
+  },
+  {
+    "id": "00210",
+    "description": "Hauskrecht",
+    "country": "Czechia",
+    "letter": "H"
+  },
+  {
+    "id": "00211",
+    "description": "Letajici",
+    "country": "Czechia",
+    "letter": "L"
+  },
+  {
+    "id": "00212",
+    "description": "Hauskrecht",
+    "country": "Czechia",
+    "letter": "H"
+  },
+  {
+    "id": "00213",
+    "description": "Dalesice",
+    "country": "Czechia",
+    "letter": "D"
+  },
+  {
+    "id": "00214",
+    "description": "Radegast",
+    "country": "Czechia",
+    "letter": "R"
+  },
+  {
+    "id": "00215",
+    "description": "Radegast",
+    "country": "Czechia",
+    "letter": "R"
+  },
+  {
+    "id": "00216",
+    "description": "Radegast",
+    "country": "Czechia",
+    "letter": "R"
+  },
+  {
+    "id": "00217",
+    "description": "Radegast",
+    "country": "Czechia",
+    "letter": "R"
+  },
+  {
+    "id": "00218",
+    "description": "Beznoska",
+    "country": "Czechia",
+    "letter": "B"
+  },
+  {
+    "id": "00219",
+    "description": "Konrad",
+    "country": "Czechia",
+    "letter": "K"
+  },
+  {
+    "id": "00220",
+    "description": "Propamatky",
+    "country": "Czechia",
+    "letter": "P"
+  },
+  {
+    "id": "00221",
+    "description": "Zlatopramen",
+    "country": "Czechia",
+    "letter": "Z"
+  },
+  {
+    "id": "00222",
+    "description": "Altvater",
+    "country": "Czechia",
+    "letter": "A"
+  },
+  {
+    "id": "00223",
+    "description": "Pernstejn",
+    "country": "Czechia",
+    "letter": "P"
+  },
+  {
+    "id": "00224",
+    "description": "Pilsner Urquell",
+    "country": "Czechia",
+    "letter": "P"
+  },
+  {
+    "id": "00225",
+    "description": "Staropramen",
+    "country": "Czechia",
+    "letter": "S"
+  },
+  {
+    "id": "00226",
+    "description": "Maly Janek",
+    "country": "Czechia",
+    "letter": "M"
+  },
+  {
+    "id": "00227",
+    "description": "Czech Lion",
+    "country": "Czechia",
+    "letter": "C"
+  },
+  {
+    "id": "00228",
+    "description": "Pilsner Urquell",
+    "country": "Czechia",
+    "letter": "P"
+  },
+  {
+    "id": "00229",
+    "description": "Pult",
+    "country": "Czechia",
+    "letter": "P"
+  },
+  {
+    "id": "00230",
+    "description": "Saris",
+    "country": "Slovakia",
+    "letter": "S"
+  },
+  {
+    "id": "00231",
+    "description": "Stern",
+    "country": "Czechia",
+    "letter": "S"
+  },
+  {
+    "id": "00232",
+    "description": "Stella Artois",
+    "country": "Belgium",
+    "letter": "S"
+  },
+  {
+    "id": "00233",
+    "description": "Clock",
+    "country": "Czechia",
+    "letter": "C"
+  },
+  {
+    "id": "00234",
+    "description": "Clock",
+    "country": "Czechia",
+    "letter": "C"
+  },
+  {
+    "id": "00235",
+    "description": "Clock",
+    "country": "Czechia",
+    "letter": "C"
+  },
+  {
+    "id": "00236",
+    "description": "Pernstejn",
+    "country": "Czechia",
+    "letter": "P"
+  },
+  {
+    "id": "00237",
+    "description": "Zichovec",
+    "country": "Czechia",
+    "letter": "Z"
+  },
+  {
+    "id": "00238",
+    "description": "Uneticky",
+    "country": "Czechia",
+    "letter": "U"
+  },
+  {
+    "id": "00239",
+    "description": "Skaut",
+    "country": "Czechia",
+    "letter": "S"
+  },
+  {
+    "id": "00240",
+    "description": "Pardubicky",
+    "country": "Czechia",
+    "letter": "P"
+  },
+  {
+    "id": "00241",
+    "description": "Beranek",
+    "country": "Czechia",
+    "letter": "B"
+  },
+  {
+    "id": "00242",
+    "description": "Berounsky Medved",
+    "country": "Czechia",
+    "letter": "B"
+  },
+  {
+    "id": "00243",
+    "description": "Heineken",
+    "country": "Netherlands",
+    "letter": "H"
+  },
+  {
+    "id": "00244",
+    "description": "Heineken",
+    "country": "Netherlands",
+    "letter": "H"
+  },
+  {
+    "id": "00245",
+    "description": "AvWees",
+    "country": "Netherlands",
+    "letter": "A"
+  },
+  {
+    "id": "00246",
+    "description": "Basta",
+    "country": "Czechia",
+    "letter": "B"
+  },
+  {
+    "id": "00247",
+    "description": "Kilian",
+    "country": "Czechia",
+    "letter": "K"
+  },
+  {
+    "id": "00248",
+    "description": "Cizova",
+    "country": "Czechia",
+    "letter": "C"
+  },
+  {
+    "id": "00249",
+    "description": "Budvar",
+    "country": "Czechia",
+    "letter": "B"
+  },
+  {
+    "id": "00250",
+    "description": "Antos",
+    "country": "Czechia",
+    "letter": "A"
+  },
+  {
+    "id": "00251",
+    "description": "Andelsky",
+    "country": "Czechia",
+    "letter": "A"
+  },
+  {
+    "id": "00252",
+    "description": "Malesov",
+    "country": "Czechia",
+    "letter": "M"
+  },
+  {
+    "id": "00253",
+    "description": "Kosice Pivovar",
+    "country": "Slovakia",
+    "letter": "K"
+  },
+  {
+    "id": "00254",
+    "description": "Siberia",
+    "country": "Czechia",
+    "letter": "S"
+  },
+  {
+    "id": "00255",
+    "description": "Gwern",
+    "country": "Czechia",
+    "letter": "G"
+  },
+  {
+    "id": "00256",
+    "description": "Permon Brewery",
+    "country": "Czechia",
+    "letter": "P"
+  },
+  {
+    "id": "00257",
+    "description": "Pilsner Urquell",
+    "country": "Czechia",
+    "letter": "P"
+  },
+  {
+    "id": "00258",
+    "description": "Pilsner Urquell",
+    "country": "Czechia",
+    "letter": "P"
+  },
+  {
+    "id": "00259",
+    "description": "Cvikov",
+    "country": "Czechia",
+    "letter": "C"
+  },
+  {
+    "id": "00260",
+    "description": "Uhrineves",
+    "country": "Czechia",
+    "letter": "U"
+  },
+  {
+    "id": "00261",
+    "description": "Weihenstephan",
+    "country": "Germany",
+    "letter": "W"
+  },
+  {
+    "id": "00262",
+    "description": "Weihenstephan",
+    "country": "Germany",
+    "letter": "W"
+  },
+  {
+    "id": "00263",
+    "description": "Hofbrau Kaltenhausen",
+    "country": "Austria",
+    "letter": "H"
+  },
+  {
+    "id": "00264",
+    "description": "Eggenberg",
+    "country": "Austria",
+    "letter": "E"
+  },
+  {
+    "id": "00265",
+    "description": "Falkenstejn",
+    "country": "Czechia",
+    "letter": "F"
+  },
+  {
+    "id": "00266",
+    "description": "Stella Artois",
+    "country": "Belgium",
+    "letter": "S"
+  },
+  {
+    "id": "00267",
+    "description": "TVerzet",
+    "country": "Belgium",
+    "letter": "t"
+  },
+  {
+    "id": "00268",
+    "description": "Tupadly",
+    "country": "Czechia",
+    "letter": "T"
+  },
+  {
+    "id": "00269",
+    "description": "Zlaty Bazant",
+    "country": "Slovakia",
+    "letter": "Z"
+  },
+  {
+    "id": "00270",
+    "description": "Kozel",
+    "country": "Czechia",
+    "letter": "K"
+  },
+  {
+    "id": "00271",
+    "description": "Breznak",
+    "country": "Czechia",
+    "letter": "B"
+  },
+  {
+    "id": "00272",
+    "description": "Warsteiner",
+    "country": "Germany",
+    "letter": "W"
+  },
+  {
+    "id": "00273",
+    "description": "Warsteiner",
+    "country": "Germany",
+    "letter": "W"
+  },
+  {
+    "id": "00274",
+    "description": "Wywar",
+    "country": "Czechia",
+    "letter": "W"
+  },
+  {
+    "id": "00275",
+    "description": "Wild East",
+    "country": "USA",
+    "letter": "W"
+  },
+  {
+    "id": "00276",
+    "description": "Wywar",
+    "country": "Czechia",
+    "letter": "W"
+  },
+  {
+    "id": "00277",
+    "description": "Westmalle",
+    "country": "Belgium",
+    "letter": "W"
+  },
+  {
+    "id": "00278",
+    "description": "Weitra Brau",
+    "country": "Austria",
+    "letter": "W"
+  },
+  {
+    "id": "00279",
+    "description": "Wai",
+    "country": "",
+    "letter": "W"
+  },
+  {
+    "id": "00280",
+    "description": "Tyskie",
+    "country": "Poland",
+    "letter": "T"
+  },
+  {
+    "id": "00281",
+    "description": "Triton",
+    "country": "Czechia",
+    "letter": "T"
+  },
+  {
+    "id": "00282",
+    "description": "Teletruc",
+    "country": "Belgium",
+    "letter": "T"
+  },
+  {
+    "id": "00283",
+    "description": "Thornbridge",
+    "country": "England",
+    "letter": "T"
+  },
+  {
+    "id": "00284",
+    "description": "Tropical",
+    "country": "Spain",
+    "letter": "T"
+  },
+  {
+    "id": "00285",
+    "description": "Tropical",
+    "country": "Spain",
+    "letter": "T"
+  },
+  {
+    "id": "00286",
+    "description": "Tovarna",
+    "country": "Czechia",
+    "letter": "T"
+  },
+  {
+    "id": "00287",
+    "description": "Trautenberk",
+    "country": "Czechia",
+    "letter": "T"
+  },
+  {
+    "id": "00288",
+    "description": "Trautenberk",
+    "country": "Czechia",
+    "letter": "T"
+  },
+  {
+    "id": "00289",
+    "description": "Oedipus",
+    "country": "Netherlands",
+    "letter": "O"
+  },
+  {
+    "id": "00290",
+    "description": "Texels",
+    "country": "Netherlands",
+    "letter": "T"
+  },
+  {
+    "id": "00291",
+    "description": "Two Chefs Brewing",
+    "country": "Netherlands",
+    "letter": "T"
+  },
+  {
+    "id": "00292",
+    "description": "Uneticky",
+    "country": "Czechia",
+    "letter": "U"
+  },
+  {
+    "id": "00293",
+    "description": "Uneticky",
+    "country": "Czechia",
+    "letter": "U"
+  },
+  {
+    "id": "00294",
+    "description": "Uneticky",
+    "country": "Czechia",
+    "letter": "U"
+  },
+  {
+    "id": "00295",
+    "description": "Uneticky",
+    "country": "Czechia",
+    "letter": "U"
+  },
+  {
+    "id": "00296",
+    "description": "Uneticky",
+    "country": "Czechia",
+    "letter": "U"
+  },
+  {
+    "id": "00297",
+    "description": "Uneticky",
+    "country": "Czechia",
+    "letter": "U"
+  },
+  {
+    "id": "00298",
+    "description": "Uneticky",
+    "country": "Czechia",
+    "letter": "U"
+  },
+  {
+    "id": "00299",
+    "description": "Uneticky",
+    "country": "Czechia",
+    "letter": "U"
+  },
+  {
+    "id": "00300",
+    "description": "Uneticky",
+    "country": "Czechia",
+    "letter": "U"
+  },
+  {
+    "id": "00301",
+    "description": "Untappd",
+    "country": "Czechia",
+    "letter": "U"
+  },
+  {
+    "id": "00302",
+    "description": "Uiltje",
+    "country": "Netherlands",
+    "letter": "U"
+  },
+  {
+    "id": "00303",
+    "description": "Up Festival",
+    "country": "Belgium",
+    "letter": "U"
+  },
+  {
+    "id": "00304",
+    "description": "Fleku",
+    "country": "Czechia",
+    "letter": "F"
+  },
+  {
+    "id": "00305",
+    "description": "Uhrineves",
+    "country": "Czechia",
+    "letter": "U"
+  },
+  {
+    "id": "00306",
+    "description": "Up Bar",
+    "country": "Czechia",
+    "letter": "U"
+  },
+  {
+    "id": "00307",
+    "description": "Augustin",
+    "country": "Belgium",
+    "letter": "A"
+  },
+  {
+    "id": "00308",
+    "description": "Amstel",
+    "country": "Spain",
+    "letter": "A"
+  },
+  {
+    "id": "00309",
+    "description": "Aspall",
+    "country": "England",
+    "letter": "A"
+  },
+  {
+    "id": "00310",
+    "description": "Aldersbacher",
+    "country": "Germany",
+    "letter": "A"
+  },
+  {
+    "id": "00311",
+    "description": "Aldersbacher",
+    "country": "Germany",
+    "letter": "A"
+  },
+  {
+    "id": "00312",
+    "description": "Aldersbacher",
+    "country": "Germany",
+    "letter": "A"
+  },
+  {
+    "id": "00313",
+    "description": "Aldersbacher",
+    "country": "Germany",
+    "letter": "A"
+  },
+  {
+    "id": "00314",
+    "description": "Aldersbacher",
+    "country": "Germany",
+    "letter": "A"
+  },
+  {
+    "id": "00315",
+    "description": "Andechs",
+    "country": "Germany",
+    "letter": "A"
+  },
+  {
+    "id": "00316",
+    "description": "Amundsen",
+    "country": "Czechia",
+    "letter": "A"
+  },
+  {
+    "id": "00317",
+    "description": "Amstel",
+    "country": "Netherlands",
+    "letter": "A"
+  },
+  {
+    "id": "00318",
+    "description": "Ayinger",
+    "country": "Germany",
+    "letter": "A"
+  },
+  {
+    "id": "00319",
+    "description": "Austral",
+    "country": "Chile",
+    "letter": "A"
+  },
+  {
+    "id": "00320",
+    "description": "Clock",
+    "country": "Czechia",
+    "letter": "C"
+  },
+  {
+    "id": "00321",
+    "description": "Clock",
+    "country": "Czechia",
+    "letter": "C"
+  },
+  {
+    "id": "00322",
+    "description": "Clock",
+    "country": "Czechia",
+    "letter": "C"
+  },
+  {
+    "id": "00323",
+    "description": "Coca Cola",
+    "country": "Netherlands",
+    "letter": "C"
+  },
+  {
+    "id": "00324",
+    "description": "Chric",
+    "country": "Czechia",
+    "letter": "C"
+  },
+  {
+    "id": "00325",
+    "description": "Chric",
+    "country": "Czechia",
+    "letter": "C"
+  },
+  {
+    "id": "00326",
+    "description": "Casino Gran Canaria",
+    "country": "Spain",
+    "letter": "C"
+  },
+  {
+    "id": "00327",
+    "description": "The Crown",
+    "country": "USA",
+    "letter": "T"
+  },
+  {
+    "id": "00328",
+    "description": "Carling",
+    "country": "England",
+    "letter": "C"
+  },
+  {
+    "id": "00329",
+    "description": "Carlsberg",
+    "country": "Portugal",
+    "letter": "C"
+  },
+  {
+    "id": "00330",
+    "description": "Chomout",
+    "country": "Czechia",
+    "letter": "C"
+  },
+  {
+    "id": "00331",
+    "description": "Chomout",
+    "country": "Czechia",
+    "letter": "C"
+  },
+  {
+    "id": "00332",
+    "description": "Cornet",
+    "country": "Belgium",
+    "letter": "C"
+  },
+  {
+    "id": "00333",
+    "description": "Cerna Swine",
+    "country": "Czechia",
+    "letter": "C"
+  },
+  {
+    "id": "00334",
+    "description": "Cernovar",
+    "country": "Czechia",
+    "letter": "C"
+  },
+  {
+    "id": "00335",
+    "description": "Cernovar",
+    "country": "Czechia",
+    "letter": "C"
+  },
+  {
+    "id": "00336",
+    "description": "Estrella Galicia",
+    "country": "Spain",
+    "letter": "E"
+  },
+  {
+    "id": "00337",
+    "description": "Estrella Galicia",
+    "country": "Spain",
+    "letter": "E"
+  },
+  {
+    "id": "00338",
+    "description": "Jameson",
+    "country": "Ireland",
+    "letter": "J"
+  },
+  {
+    "id": "00339",
+    "description": "Hop House",
+    "country": "Ireland",
+    "letter": "H"
+  },
+  {
+    "id": "00340",
+    "description": "Jopen",
+    "country": "Netherlands",
+    "letter": "J"
+  },
+  {
+    "id": "00341",
+    "description": "Orangina",
+    "country": "Belgium",
+    "letter": "O"
+  },
+  {
+    "id": "00342",
+    "description": "Ossegg",
+    "country": "Czechia",
+    "letter": "O"
+  },
+  {
+    "id": "00343",
+    "description": "Ossegg",
+    "country": "Czechia",
+    "letter": "O"
+  },
+  {
+    "id": "00344",
+    "description": "Ovipistan",
+    "country": "Czechia",
+    "letter": "O"
+  },
+  {
+    "id": "00345",
+    "description": "Novopacke",
+    "country": "Czechia",
+    "letter": "N"
+  },
+  {
+    "id": "00346",
+    "description": "Nemy Medved",
+    "country": "Czechia",
+    "letter": "N"
+  },
+  {
+    "id": "00347",
+    "description": "Nachmelena Opice",
+    "country": "Czechia",
+    "letter": "N"
+  },
+  {
+    "id": "00348",
+    "description": "Felber",
+    "country": "Czechia",
+    "letter": "F"
+  },
+  {
+    "id": "00349",
+    "description": "Felber",
+    "country": "Czechia",
+    "letter": "F"
+  },
+  {
+    "id": "00350",
+    "description": "Cafe Frida",
+    "country": "Czechia",
+    "letter": "C"
+  },
+  {
+    "id": "00351",
+    "description": "Full Circle",
+    "country": "Belgium",
+    "letter": "F"
+  },
+  {
+    "id": "00352",
+    "description": "Flamm",
+    "country": "Czechia",
+    "letter": "F"
+  },
+  {
+    "id": "00353",
+    "description": "Felsenkeller",
+    "country": "Germany",
+    "letter": "F"
+  },
+  {
+    "id": "00354",
+    "description": "Ferdinand",
+    "country": "Czechia",
+    "letter": "F"
+  },
+  {
+    "id": "00355",
+    "description": "Ferdinand",
+    "country": "Czechia",
+    "letter": "F"
+  },
+  {
+    "id": "00356",
+    "description": "Ferdinand",
+    "country": "Czechia",
+    "letter": "F"
+  },
+  {
+    "id": "00357",
+    "description": "Desperados",
+    "country": "Czechia",
+    "letter": "D"
+  },
+  {
+    "id": "00358",
+    "description": "De Prael",
+    "country": "Netherlands",
+    "letter": "D"
+  },
+  {
+    "id": "00359",
+    "description": "De Kade",
+    "country": "Netherlands",
+    "letter": "D"
+  },
+  {
+    "id": "00360",
+    "description": "Drzseplotu",
+    "country": "Czechia",
+    "letter": "D"
+  },
+  {
+    "id": "00361",
+    "description": "Dalesice",
+    "country": "Czechia",
+    "letter": "D"
+  },
+  {
+    "id": "00362",
+    "description": "Dalesice",
+    "country": "Czechia",
+    "letter": "D"
+  },
+  {
+    "id": "00363",
+    "description": "Dva Kohouti",
+    "country": "Czechia",
+    "letter": "D"
+  },
+  {
+    "id": "00364",
+    "description": "De Eeuwige Jeugd",
+    "country": "Netherlands",
+    "letter": "D"
+  },
+  {
+    "id": "00365",
+    "description": "De Eeuwige Jeugd",
+    "country": "Netherlands",
+    "letter": "D"
+  },
+  {
+    "id": "00366",
+    "description": "Draaimolen",
+    "country": "Netherlands",
+    "letter": "D"
+  },
+  {
+    "id": "00367",
+    "description": "",
+    "country": "Czechia",
+    "letter": "XX"
+  },
+  {
+    "id": "00368",
+    "description": "Delirium Noel",
+    "country": "Belgium",
+    "letter": "D"
+  },
+  {
+    "id": "00369",
+    "description": "Forst",
+    "country": "Italy",
+    "letter": "F"
+  },
+  {
+    "id": "00370",
+    "description": "Forst",
+    "country": "Italy",
+    "letter": "F"
+  },
+  {
+    "id": "00371",
+    "description": "Forst",
+    "country": "Italy",
+    "letter": "F"
+  },
+  {
+    "id": "00372",
+    "description": "Floris Passion",
+    "country": "Belgium",
+    "letter": "F"
+  },
+  {
+    "id": "00373",
+    "description": "Dorada",
+    "country": "Spain",
+    "letter": "D"
+  },
+  {
+    "id": "00374",
+    "description": "Jameson",
+    "country": "Ireland",
+    "letter": "J"
+  },
+  {
+    "id": "00375",
+    "description": "Jupiler",
+    "country": "Belgium",
+    "letter": "J"
+  },
+  {
+    "id": "00376",
+    "description": "Jupiler",
+    "country": "Belgium",
+    "letter": "J"
+  },
+  {
+    "id": "00377",
+    "description": "Jupiler",
+    "country": "Belgium",
+    "letter": "J"
+  },
+  {
+    "id": "00378",
+    "description": "Eggenberg",
+    "country": "Czechia",
+    "letter": "E"
+  },
+  {
+    "id": "00379",
+    "description": "Einsiedler",
+    "country": "Czechia",
+    "letter": "E"
+  },
+  {
+    "id": "00380",
+    "description": "",
+    "country": "Belgium",
+    "letter": "XX"
+  },
+  {
+    "id": "00381",
+    "description": "Duvel",
+    "country": "Belgium",
+    "letter": "D"
+  },
+  {
+    "id": "00382",
+    "description": "Duvel",
+    "country": "Belgium",
+    "letter": "D"
+  },
+  {
+    "id": "00383",
+    "description": "Duvel",
+    "country": "Belgium",
+    "letter": "D"
+  },
+  {
+    "id": "00384",
+    "description": "",
+    "country": "Belgium",
+    "letter": "XX"
+  },
+  {
+    "id": "00385",
+    "description": "Nutrl",
+    "country": "USA",
+    "letter": "N"
+  },
+  {
+    "id": "00386",
+    "description": "Nutrl",
+    "country": "USA",
+    "letter": "N"
+  },
+  {
+    "id": "00387",
+    "description": "",
+    "country": "Czechia",
+    "letter": "XX"
+  },
+  {
+    "id": "00388",
+    "description": "",
+    "country": "Czechia",
+    "letter": "XX"
+  },
+  {
+    "id": "00389",
+    "description": "",
+    "country": "Czechia",
+    "letter": "XX"
+  },
+  {
+    "id": "00390",
+    "description": "",
+    "country": "Netherlands",
+    "letter": "XX"
+  },
+  {
+    "id": "00391",
+    "description": "",
+    "country": "Poland",
+    "letter": "XX"
+  },
+  {
+    "id": "00392",
+    "description": "Heineken",
+    "country": "Netherlands",
+    "letter": "H"
+  },
+  {
+    "id": "00393",
+    "description": "Holsten",
+    "country": "Germany",
+    "letter": "H"
+  },
+  {
+    "id": "00394",
+    "description": "Hemingway Bar",
+    "country": "Czechia",
+    "letter": "H"
+  },
+  {
+    "id": "00395",
+    "description": "Hendrych",
+    "country": "Czechia",
+    "letter": "H"
+  },
+  {
+    "id": "00396",
+    "description": "Hostivar",
+    "country": "Czechia",
+    "letter": "H"
+  },
+  {
+    "id": "00397",
+    "description": "Hostivar",
+    "country": "Czechia",
+    "letter": "H"
+  },
+  {
+    "id": "00398",
+    "description": "Hostivar",
+    "country": "Czechia",
+    "letter": "H"
+  },
+  {
+    "id": "00399",
+    "description": "Holba",
+    "country": "Czechia",
+    "letter": "H"
+  },
+  {
+    "id": "00400",
+    "description": "Hertog Jan",
+    "country": "Netherlands",
+    "letter": "H"
+  },
+  {
+    "id": "00401",
+    "description": "Hannen Alt",
+    "country": "Germany",
+    "letter": "H"
+  },
+  {
+    "id": "00402",
+    "description": "Hannen Alt",
+    "country": "Germany",
+    "letter": "H"
+  },
+  {
+    "id": "00403",
+    "description": "Hannen Alt",
+    "country": "Germany",
+    "letter": "H"
+  },
+  {
+    "id": "00404",
+    "description": "Handle Bar",
+    "country": "USA",
+    "letter": "H"
+  },
+  {
+    "id": "00405",
+    "description": "Hostomice",
+    "country": "Czechia",
+    "letter": "H"
+  },
+  {
+    "id": "00406",
+    "description": "Hostomice",
+    "country": "Czechia",
+    "letter": "H"
+  },
+  {
+    "id": "00407",
+    "description": "Hostomice",
+    "country": "Czechia",
+    "letter": "H"
+  },
+  {
+    "id": "00408",
+    "description": "Hubertus",
+    "country": "Czechia",
+    "letter": "H"
+  },
+  {
+    "id": "00409",
+    "description": "Holba",
+    "country": "Czechia",
+    "letter": "H"
+  },
+  {
+    "id": "00410",
+    "description": "Cafe de Pels",
+    "country": "Netherlands",
+    "letter": "C"
+  },
+  {
+    "id": "00411",
+    "description": "Hofmuhl Hell",
+    "country": "Germany",
+    "letter": "H"
+  },
+  {
+    "id": "00412",
+    "description": "Herold",
+    "country": "Czechia",
+    "letter": "H"
+  },
+  {
+    "id": "00413",
+    "description": "Raschhofer",
+    "country": "Austria",
+    "letter": "R"
+  },
+  {
+    "id": "00414",
+    "description": "Radegast",
+    "country": "Czechia",
+    "letter": "R"
+  },
+  {
+    "id": "00415",
+    "description": "Radegast",
+    "country": "Czechia",
+    "letter": "R"
+  },
+  {
+    "id": "00416",
+    "description": "Radegast",
+    "country": "Czechia",
+    "letter": "R"
+  },
+  {
+    "id": "00417",
+    "description": "Radegast",
+    "country": "Czechia",
+    "letter": "R"
+  },
+  {
+    "id": "00418",
+    "description": "Radegast",
+    "country": "Czechia",
+    "letter": "R"
+  },
+  {
+    "id": "00419",
+    "description": "Bohemia Regent",
+    "country": "Czechia",
+    "letter": "B"
+  },
+  {
+    "id": "00420",
+    "description": "Rohozec",
+    "country": "Czechia",
+    "letter": "R"
+  },
+  {
+    "id": "00421",
+    "description": "Rohozec",
+    "country": "Czechia",
+    "letter": "R"
+  },
+  {
+    "id": "00422",
+    "description": "Royal Bliss",
+    "country": "USA",
+    "letter": "R"
+  },
+  {
+    "id": "00423",
+    "description": "Rizek",
+    "country": "Czechia",
+    "letter": "R"
+  },
+  {
+    "id": "00424",
+    "description": "Ramazzotti",
+    "country": "Germany",
+    "letter": "R"
+  },
+  {
+    "id": "00425",
+    "description": "Rudohor",
+    "country": "Czechia",
+    "letter": "R"
+  },
+  {
+    "id": "00426",
+    "description": "Rampusak",
+    "country": "Czechia",
+    "letter": "R"
+  },
+  {
+    "id": "00427",
+    "description": "Rampusak",
+    "country": "Czechia",
+    "letter": "R"
+  },
+  {
+    "id": "00428",
+    "description": "Raven",
+    "country": "Czechia",
+    "letter": "R"
+  },
+  {
+    "id": "00429",
+    "description": "Zatec",
+    "country": "Czechia",
+    "letter": "Z"
+  },
+  {
+    "id": "00430",
+    "description": "Zlaty Bazant",
+    "country": "Slovakia",
+    "letter": "Z"
+  },
+  {
+    "id": "00431",
+    "description": "Zlaty Bazant",
+    "country": "Slovakia",
+    "letter": "Z"
+  },
+  {
+    "id": "00432",
+    "description": "Zillertal",
+    "country": "Austria",
+    "letter": "Z"
+  },
+  {
+    "id": "00433",
+    "description": "Zillertal",
+    "country": "Austria",
+    "letter": "Z"
+  },
+  {
+    "id": "00434",
+    "description": "Zwettler",
+    "country": "Austria",
+    "letter": "Z"
+  },
+  {
+    "id": "00435",
+    "description": "Zizkoff Pivoteka",
+    "country": "Czechia",
+    "letter": "Z"
+  },
+  {
+    "id": "00436",
+    "description": "Zizkovske Mezidvorky",
+    "country": "Czechia",
+    "letter": "Z"
+  },
+  {
+    "id": "00437",
+    "description": "Zeliv",
+    "country": "Czechia",
+    "letter": "Z"
+  },
+  {
+    "id": "00438",
+    "description": "Zubr",
+    "country": "Czechia",
+    "letter": "Z"
+  },
+  {
+    "id": "00439",
+    "description": "Zubr",
+    "country": "Czechia",
+    "letter": "Z"
+  },
+  {
+    "id": "00440",
+    "description": "Zubr",
+    "country": "Czechia",
+    "letter": "Z"
+  },
+  {
+    "id": "00441",
+    "description": "Zywiec",
+    "country": "Poland",
+    "letter": "Z"
+  },
+  {
+    "id": "00442",
+    "description": "Zloun",
+    "country": "Czechia",
+    "letter": "Z"
+  },
+  {
+    "id": "00443",
+    "description": "Zdivar",
+    "country": "Czechia",
+    "letter": "Z"
+  },
+  {
+    "id": "00444",
+    "description": "Erdinger",
+    "country": "Czechia",
+    "letter": "E"
+  },
+  {
+    "id": "00445",
+    "description": "Stridacka",
+    "country": "Czechia",
+    "letter": "S"
+  },
+  {
+    "id": "00446",
+    "description": "Krakonos",
+    "country": "Czechia",
+    "letter": "K"
+  },
+  {
+    "id": "00447",
+    "description": "Krakonos",
+    "country": "Czechia",
+    "letter": "K"
+  },
+  {
+    "id": "00448",
+    "description": "Sedmy Schod",
+    "country": "Czechia",
+    "letter": "S"
+  },
+  {
+    "id": "00449",
+    "description": "Primator",
+    "country": "Czechia",
+    "letter": "P"
+  },
+  {
+    "id": "00450",
+    "description": "Svijany",
+    "country": "Czechia",
+    "letter": "S"
+  },
+  {
+    "id": "00451",
+    "description": "Svijany",
+    "country": "Czechia",
+    "letter": "S"
+  },
+  {
+    "id": "00452",
+    "description": "Svijany",
+    "country": "Czechia",
+    "letter": "S"
+  },
+  {
+    "id": "00453",
+    "description": "Svijany",
+    "country": "Czechia",
+    "letter": "S"
+  },
+  {
+    "id": "00454",
+    "description": "Svijany",
+    "country": "Czechia",
+    "letter": "S"
+  },
+  {
+    "id": "00455",
+    "description": "Karel IV",
+    "country": "Czechia",
+    "letter": "K"
+  },
+  {
+    "id": "00456",
+    "description": "Hoegaarden",
+    "country": "Czechia",
+    "letter": "H"
+  },
+  {
+    "id": "00457",
+    "description": "Chouffe",
+    "country": "Belgium",
+    "letter": "C"
+  },
+  {
+    "id": "00458",
+    "description": "Salm Brau",
+    "country": "Austria",
+    "letter": "S"
+  },
+  {
+    "id": "00459",
+    "description": "Stiegl",
+    "country": "Austria",
+    "letter": "S"
+  },
+  {
+    "id": "00460",
+    "description": "Kelt",
+    "country": "Czechia",
+    "letter": "K"
+  },
+  {
+    "id": "00461",
+    "description": "Brand",
+    "country": "Netherlands",
+    "letter": "B"
+  },
+  {
+    "id": "00462",
+    "description": "Kolcavka",
+    "country": "Czechia",
+    "letter": "K"
+  },
+  {
+    "id": "00463",
+    "description": "Zubr",
+    "country": "Czechia",
+    "letter": "Z"
+  },
+  {
+    "id": "00464",
+    "description": "Bakalar",
+    "country": "Czechia",
+    "letter": "B"
+  },
+  {
+    "id": "00465",
+    "description": "Bakalar",
+    "country": "Czechia",
+    "letter": "B"
+  },
+  {
+    "id": "00466",
+    "description": "Postrizinske",
+    "country": "Czechia",
+    "letter": "P"
+  },
+  {
+    "id": "00467",
+    "description": "Pilsner Urquell",
+    "country": "Czechia",
+    "letter": "P"
+  },
+  {
+    "id": "00468",
+    "description": "Maisel",
+    "country": "Germany",
+    "letter": "M"
+  },
+  {
+    "id": "00469",
+    "description": "Hendrych",
+    "country": "Czechia",
+    "letter": "H"
+  },
+  {
+    "id": "00470",
+    "description": "Chodovar",
+    "country": "Czechia",
+    "letter": "C"
+  },
+  {
+    "id": "00471",
+    "description": "Pioneer",
+    "country": "Czechia",
+    "letter": "P"
+  },
+  {
+    "id": "00472",
+    "description": "Cestmir",
+    "country": "Czechia",
+    "letter": "C"
+  },
+  {
+    "id": "00473",
+    "description": "Pilsner Urquell",
+    "country": "Czechia",
+    "letter": "P"
+  },
+  {
+    "id": "00474",
+    "description": "Pilsner Urquell",
+    "country": "Czechia",
+    "letter": "P"
+  },
+  {
+    "id": "00475",
+    "description": "Svijany",
+    "country": "Czechia",
+    "letter": "S"
+  },
+  {
+    "id": "00476",
+    "description": "Svijany",
+    "country": "Czechia",
+    "letter": "S"
+  },
+  {
+    "id": "00477",
+    "description": "Pilsner Urquell",
+    "country": "Czechia",
+    "letter": "P"
+  },
+  {
+    "id": "00478",
+    "description": "Pilsner Urquell",
+    "country": "Czechia",
+    "letter": "P"
+  },
+  {
+    "id": "00479",
+    "description": "Pioneer",
+    "country": "Czechia",
+    "letter": "P"
+  },
+  {
+    "id": "00480",
+    "description": "Pilsner Urquell",
+    "country": "Czechia",
+    "letter": "P"
+  },
+  {
+    "id": "00481",
+    "description": "Podripsky",
+    "country": "Czechia",
+    "letter": "P"
+  },
+  {
+    "id": "00482",
+    "description": "Kamenice",
+    "country": "Czechia",
+    "letter": "K"
+  },
+  {
+    "id": "00483",
+    "description": "Brouwerij 't IJ",
+    "country": "Netherlands",
+    "letter": "B"
+  },
+  {
+    "id": "00484",
+    "description": "Brezi Koza",
+    "country": "Czechia",
+    "letter": "B"
+  },
+  {
+    "id": "00485",
+    "description": "Kofola",
+    "country": "Czechia",
+    "letter": "K"
+  },
+  {
+    "id": "00486",
+    "description": "Kofola",
+    "country": "Czechia",
+    "letter": "K"
+  },
+  {
+    "id": "00487",
+    "description": "Breznak",
+    "country": "Czechia",
+    "letter": "B"
+  },
+  {
+    "id": "00488",
+    "description": "Breznak",
+    "country": "Czechia",
+    "letter": "B"
+  },
+  {
+    "id": "00489",
+    "description": "Breznak",
+    "country": "Czechia",
+    "letter": "B"
+  },
+  {
+    "id": "00490",
+    "description": "Budvar",
+    "country": "Czechia",
+    "letter": "B"
+  },
+  {
+    "id": "00491",
+    "description": "Budvar",
+    "country": "Czechia",
+    "letter": "B"
+  },
+  {
+    "id": "00492",
+    "description": "Budvar",
+    "country": "Czechia",
+    "letter": "B"
+  },
+  {
+    "id": "00493",
+    "description": "Budvar",
+    "country": "Czechia",
+    "letter": "B"
+  },
+  {
+    "id": "00494",
+    "description": "Budvar",
+    "country": "Czechia",
+    "letter": "B"
+  },
+  {
+    "id": "00495",
+    "description": "Bernard",
+    "country": "Czechia",
+    "letter": "B"
+  },
+  {
+    "id": "00496",
+    "description": "Bernard",
+    "country": "Czechia",
+    "letter": "B"
+  },
+  {
+    "id": "00497",
+    "description": "Bernard",
+    "country": "Czechia",
+    "letter": "B"
+  },
+  {
+    "id": "00498",
+    "description": "Bernard",
+    "country": "Czechia",
+    "letter": "B"
+  },
+  {
+    "id": "00499",
+    "description": "Bernard",
+    "country": "Czechia",
+    "letter": "B"
+  },
+  {
+    "id": "00500",
+    "description": "Bernard",
+    "country": "Czechia",
+    "letter": "B"
+  },
+  {
+    "id": "00501",
+    "description": "Bernard",
+    "country": "Czechia",
+    "letter": "B"
+  },
+  {
+    "id": "00502",
+    "description": "Bernard",
+    "country": "Czechia",
+    "letter": "B"
+  },
+  {
+    "id": "00503",
+    "description": "Bernard",
+    "country": "Czechia",
+    "letter": "B"
+  },
+  {
+    "id": "00504",
+    "description": "Beznoska",
+    "country": "Czechia",
+    "letter": "B"
+  },
+  {
+    "id": "00505",
+    "description": "Bohemia Regent",
+    "country": "Czechia",
+    "letter": "B"
+  },
+  {
+    "id": "00506",
+    "description": "Beskydsky",
+    "country": "Czechia",
+    "letter": "B"
+  },
+  {
+    "id": "00507",
+    "description": "Beskydsky",
+    "country": "Czechia",
+    "letter": "B"
+  },
+  {
+    "id": "00508",
+    "description": "Beskydsky",
+    "country": "Czechia",
+    "letter": "B"
+  },
+  {
+    "id": "00509",
+    "description": "Beskydsky",
+    "country": "Czechia",
+    "letter": "B"
+  },
+  {
+    "id": "00510",
+    "description": "Beskydsky",
+    "country": "Czechia",
+    "letter": "B"
+  },
+  {
+    "id": "00511",
+    "description": "Bakalar",
+    "country": "Czechia",
+    "letter": "B"
+  },
+  {
+    "id": "00512",
+    "description": "Budvar",
+    "country": "Czechia",
+    "letter": "B"
+  },
+  {
+    "id": "00513",
+    "description": "Branik",
+    "country": "Czechia",
+    "letter": "B"
+  },
+  {
+    "id": "00514",
+    "description": "Branik",
+    "country": "Czechia",
+    "letter": "B"
+  },
+  {
+    "id": "00515",
+    "description": "Beranek",
+    "country": "Czechia",
+    "letter": "B"
+  },
+  {
+    "id": "00516",
+    "description": "Beranek",
+    "country": "Czechia",
+    "letter": "B"
+  },
+  {
+    "id": "00517",
+    "description": "Beranek",
+    "country": "Czechia",
+    "letter": "B"
+  },
+  {
+    "id": "00518",
+    "description": "BeerGeek",
+    "country": "Czechia",
+    "letter": "B"
+  },
+  {
+    "id": "00519",
+    "description": "Bratcice",
+    "country": "Czechia",
+    "letter": "B"
+  },
+  {
+    "id": "00520",
+    "description": "Black Dogs",
+    "country": "Czechia",
+    "letter": "B"
+  },
+  {
+    "id": "00521",
+    "description": "Belveder",
+    "country": "Czechia",
+    "letter": "B"
+  },
+  {
+    "id": "00522",
+    "description": "Paulaner",
+    "country": "Czechia",
+    "letter": "P"
+  },
+  {
+    "id": "00523",
+    "description": "Brusseleir",
+    "country": "Belgium",
+    "letter": "B"
+  },
+  {
+    "id": "00524",
+    "description": "Bruxellensis",
+    "country": "Belgium",
+    "letter": "B"
+  },
+  {
+    "id": "00525",
+    "description": "Blanche de Namur",
+    "country": "Belgium",
+    "letter": "B"
+  },
+  {
+    "id": "00526",
+    "description": "Browar Amber",
+    "country": "Poland",
+    "letter": "B"
+  },
+  {
+    "id": "00527",
+    "description": "Aliance PIV",
+    "country": "Czechia",
+    "letter": "A"
+  },
+  {
+    "id": "00528",
+    "description": "Axiom",
+    "country": "Czechia",
+    "letter": "A"
+  },
+  {
+    "id": "00529",
+    "description": "Axiom",
+    "country": "Czechia",
+    "letter": "A"
+  },
+  {
+    "id": "00530",
+    "description": "Albrecht",
+    "country": "Czechia",
+    "letter": "A"
+  },
+  {
+    "id": "00531",
+    "description": "Aldersbacher",
+    "country": "Germany",
+    "letter": "A"
+  },
+  {
+    "id": "00532",
+    "description": "Aldersbacher",
+    "country": "Germany",
+    "letter": "A"
+  },
+  {
+    "id": "00533",
+    "description": "Augustin",
+    "country": "Austria",
+    "letter": "A"
+  },
+  {
+    "id": "00534",
+    "description": "Budvar",
+    "country": "Czechia",
+    "letter": "B"
+  },
+  {
+    "id": "00535",
+    "description": "Cobolis",
+    "country": "Czechia",
+    "letter": "C"
+  },
+  {
+    "id": "00536",
+    "description": "Chimay",
+    "country": "Belgium",
+    "letter": "C"
+  },
+  {
+    "id": "00537",
+    "description": "Cobra",
+    "country": "Czechia",
+    "letter": "C"
+  },
+  {
+    "id": "00538",
+    "description": "Chric",
+    "country": "Czechia",
+    "letter": "C"
+  },
+  {
+    "id": "00539",
+    "description": "Clock",
+    "country": "Czechia",
+    "letter": "C"
+  },
+  {
+    "id": "00540",
+    "description": "Cerna Hora",
+    "country": "Czechia",
+    "letter": "C"
+  },
+  {
+    "id": "00541",
+    "description": "Cerna Hora",
+    "country": "Czechia",
+    "letter": "C"
+  },
+  {
+    "id": "00542",
+    "description": "Cerna Hora",
+    "country": "Czechia",
+    "letter": "C"
+  },
+  {
+    "id": "00543",
+    "description": "Cerna Hora",
+    "country": "Czechia",
+    "letter": "C"
+  },
+  {
+    "id": "00544",
+    "description": "Domyno Bar",
+    "country": "Czechia",
+    "letter": "D"
+  },
+  {
+    "id": "00545",
+    "description": "Duvel",
+    "country": "Belgium",
+    "letter": "D"
+  },
+  {
+    "id": "00546",
+    "description": "Duvel",
+    "country": "Belgium",
+    "letter": "D"
+  },
+  {
+    "id": "00547",
+    "description": "Doubravnik",
+    "country": "Czechia",
+    "letter": "D"
+  },
+  {
+    "id": "00548",
+    "description": "Erb",
+    "country": "Czechia",
+    "letter": "E"
+  },
+  {
+    "id": "00549",
+    "description": "Erb",
+    "country": "Czechia",
+    "letter": "E"
+  },
+  {
+    "id": "00550",
+    "description": "Brevnovsky Klaster",
+    "country": "Czechia",
+    "letter": "B"
+  },
+  {
+    "id": "00551",
+    "description": "Falkenstejn",
+    "country": "Czechia",
+    "letter": "F"
+  },
+  {
+    "id": "00552",
+    "description": "Frankies",
+    "country": "Czechia",
+    "letter": "F"
+  },
+  {
+    "id": "00553",
+    "description": "Falkon",
+    "country": "Czechia",
+    "letter": "F"
+  },
+  {
+    "id": "00554",
+    "description": "Franziskaner",
+    "country": "Germany",
+    "letter": "F"
+  },
+  {
+    "id": "00555",
+    "description": "Feldschlobchen",
+    "country": "Germany",
+    "letter": "F"
+  },
+  {
+    "id": "00556",
+    "description": "Gambrinus",
+    "country": "Czechia",
+    "letter": "G"
+  },
+  {
+    "id": "00557",
+    "description": "Gambrinus",
+    "country": "Czechia",
+    "letter": "G"
+  },
+  {
+    "id": "00558",
+    "description": "Gambrinus",
+    "country": "Czechia",
+    "letter": "G"
+  },
+  {
+    "id": "00559",
+    "description": "Gambrinus",
+    "country": "Czechia",
+    "letter": "G"
+  },
+  {
+    "id": "00560",
+    "description": "Gambrinus",
+    "country": "Czechia",
+    "letter": "G"
+  },
+  {
+    "id": "00561",
+    "description": "Gambrinus",
+    "country": "Czechia",
+    "letter": "G"
+  },
+  {
+    "id": "00562",
+    "description": "Gambrinus",
+    "country": "Czechia",
+    "letter": "G"
+  },
+  {
+    "id": "00563",
+    "description": "Gambrinus",
+    "country": "Czechia",
+    "letter": "G"
+  },
+  {
+    "id": "00564",
+    "description": "Hoegaarden",
+    "country": "Belgium",
+    "letter": "H"
+  },
+  {
+    "id": "00565",
+    "description": "Hubertus",
+    "country": "Czechia",
+    "letter": "H"
+  },
+  {
+    "id": "00566",
+    "description": "Hubertus",
+    "country": "Czechia",
+    "letter": "H"
+  },
+  {
+    "id": "00567",
+    "description": "Hubertus",
+    "country": "Czechia",
+    "letter": "H"
+  },
+  {
+    "id": "00568",
+    "description": "Holba",
+    "country": "Czechia",
+    "letter": "H"
+  },
+  {
+    "id": "00569",
+    "description": "Holba",
+    "country": "Czechia",
+    "letter": "H"
+  },
+  {
+    "id": "00570",
+    "description": "Hertog Jan",
+    "country": "Netherlands",
+    "letter": "H"
+  },
+  {
+    "id": "00571",
+    "description": "Hertog Jan",
+    "country": "Netherlands",
+    "letter": "H"
+  },
+  {
+    "id": "00572",
+    "description": "Hertog Jan",
+    "country": "Netherlands",
+    "letter": "H"
+  },
+  {
+    "id": "00573",
+    "description": "Altstadthof ",
+    "country": "Germany",
+    "letter": "A"
+  },
+  {
+    "id": "00574",
+    "description": "Hasseroder",
+    "country": "Germany",
+    "letter": "H"
+  },
+  {
+    "id": "00575",
+    "description": "Hluboka",
+    "country": "Czechia",
+    "letter": "H"
+  },
+  {
+    "id": "00576",
+    "description": "Hangar",
+    "country": "Czechia",
+    "letter": "H"
+  },
+  {
+    "id": "00577",
+    "description": "Jever",
+    "country": "Germany",
+    "letter": "J"
+  },
+  {
+    "id": "00578",
+    "description": "Jezek",
+    "country": "Czechia",
+    "letter": "J"
+  },
+  {
+    "id": "00579",
+    "description": "Jezek",
+    "country": "Czechia",
+    "letter": "J"
+  },
+  {
+    "id": "00580",
+    "description": "Kozel",
+    "country": "Czechia",
+    "letter": "K"
+  },
+  {
+    "id": "00581",
+    "description": "Kozel",
+    "country": "Czechia",
+    "letter": "K"
+  },
+  {
+    "id": "00582",
+    "description": "Kozel",
+    "country": "Czechia",
+    "letter": "K"
+  },
+  {
+    "id": "00583",
+    "description": "Kozel",
+    "country": "Czechia",
+    "letter": "K"
+  },
+  {
+    "id": "00584",
+    "description": "Kozel",
+    "country": "Czechia",
+    "letter": "K"
+  },
+  {
+    "id": "00585",
+    "description": "Kozel",
+    "country": "Czechia",
+    "letter": "K"
+  },
+  {
+    "id": "00586",
+    "description": "Kozel",
+    "country": "Czechia",
+    "letter": "K"
+  },
+  {
+    "id": "00587",
+    "description": "Kozel",
+    "country": "Czechia",
+    "letter": "K"
+  },
+  {
+    "id": "00588",
+    "description": "Cesky Krumlov",
+    "country": "Czechia",
+    "letter": "C"
+  },
+  {
+    "id": "00589",
+    "description": "Klaster",
+    "country": "Czechia",
+    "letter": "K"
+  },
+  {
+    "id": "00590",
+    "description": "Konrad",
+    "country": "Czechia",
+    "letter": "K"
+  },
+  {
+    "id": "00591",
+    "description": "Konrad",
+    "country": "Czechia",
+    "letter": "K"
+  },
+  {
+    "id": "00592",
+    "description": "Krusovice",
+    "country": "Czechia",
+    "letter": "K"
+  },
+  {
+    "id": "00593",
+    "description": "Krusovice",
+    "country": "Czechia",
+    "letter": "K"
+  },
+  {
+    "id": "00594",
+    "description": "Krusovice",
+    "country": "Czechia",
+    "letter": "K"
+  },
+  {
+    "id": "00595",
+    "description": "Kolcavka",
+    "country": "Czechia",
+    "letter": "K"
+  },
+  {
+    "id": "00596",
+    "description": "Kolcavka",
+    "country": "Czechia",
+    "letter": "K"
+  },
+  {
+    "id": "00597",
+    "description": "Kolcavka",
+    "country": "Czechia",
+    "letter": "K"
+  },
+  {
+    "id": "00598",
+    "description": "Kolcavka",
+    "country": "Czechia",
+    "letter": "K"
+  },
+  {
+    "id": "00599",
+    "description": "Kral Sumavy",
+    "country": "Czechia",
+    "letter": "K"
+  },
+  {
+    "id": "00600",
+    "description": "Kocouri",
+    "country": "Czechia",
+    "letter": "K"
+  },
+  {
+    "id": "00601",
+    "description": "Krakonos",
+    "country": "Czechia",
+    "letter": "K"
+  },
+  {
+    "id": "00602",
+    "description": "Kynspersky",
+    "country": "Czechia",
+    "letter": "K"
+  },
+  {
+    "id": "00603",
+    "description": "Muflon",
+    "country": "Czechia",
+    "letter": "M"
+  },
+  {
+    "id": "00604",
+    "description": "Krkonossky Medved",
+    "country": "Czechia",
+    "letter": "K"
+  },
+  {
+    "id": "00605",
+    "description": "Mazak",
+    "country": "Czechia",
+    "letter": "M"
+  },
+  {
+    "id": "00606",
+    "description": "Mazak",
+    "country": "Czechia",
+    "letter": "M"
+  },
+  {
+    "id": "00607",
+    "description": "Malastrana",
+    "country": "Czechia",
+    "letter": "M"
+  },
+  {
+    "id": "00608",
+    "description": "Matuska",
+    "country": "Czechia",
+    "letter": "M"
+  },
+  {
+    "id": "00609",
+    "description": "Manifesto",
+    "country": "Czechia",
+    "letter": "M"
+  },
+  {
+    "id": "00610",
+    "description": "Mestansky",
+    "country": "Czechia",
+    "letter": "M"
+  },
+  {
+    "id": "00611",
+    "description": "Mestansky",
+    "country": "Czechia",
+    "letter": "M"
+  },
+  {
+    "id": "00612",
+    "description": "Mordyr",
+    "country": "Czechia",
+    "letter": "M"
+  },
+  {
+    "id": "00613",
+    "description": "Muflon",
+    "country": "Czechia",
+    "letter": "M"
+  },
+  {
+    "id": "00614",
+    "description": "Never Enough",
+    "country": "Czechia",
+    "letter": "N"
+  },
+  {
+    "id": "00615",
+    "description": "Neratov",
+    "country": "Czechia",
+    "letter": "N"
+  },
+  {
+    "id": "00616",
+    "description": "Dalesice",
+    "country": "Czechia",
+    "letter": "D"
+  },
+  {
+    "id": "00617",
+    "description": "Parnik",
+    "country": "Czechia",
+    "letter": "P"
+  },
+  {
+    "id": "00618",
+    "description": "Parnik",
+    "country": "Czechia",
+    "letter": "P"
+  },
+  {
+    "id": "00619",
+    "description": "Pilsner Urquell",
+    "country": "Czechia",
+    "letter": "P"
+  },
+  {
+    "id": "00620",
+    "description": "Pilsner Urquell",
+    "country": "Czechia",
+    "letter": "P"
+  },
+  {
+    "id": "00621",
+    "description": "Pilsner Urquell",
+    "country": "Czechia",
+    "letter": "P"
+  },
+  {
+    "id": "00622",
+    "description": "Pilsner Urquell",
+    "country": "Czechia",
+    "letter": "P"
+  },
+  {
+    "id": "00623",
+    "description": "Pilsner Urquell",
+    "country": "Czechia",
+    "letter": "P"
+  },
+  {
+    "id": "00624",
+    "description": "Pilsner Urquell",
+    "country": "Czechia",
+    "letter": "P"
+  },
+  {
+    "id": "00625",
+    "description": "Pilsner Urquell",
+    "country": "Czechia",
+    "letter": "P"
+  },
+  {
+    "id": "00626",
+    "description": "Pilsner Urquell",
+    "country": "Czechia",
+    "letter": "P"
+  },
+  {
+    "id": "00627",
+    "description": "Pilsner Urquell",
+    "country": "Czechia",
+    "letter": "P"
+  },
+  {
+    "id": "00628",
+    "description": "Pilsner Urquell",
+    "country": "Czechia",
+    "letter": "P"
+  },
+  {
+    "id": "00629",
+    "description": "Platan",
+    "country": "Czechia",
+    "letter": "P"
+  },
+  {
+    "id": "00630",
+    "description": "Platan",
+    "country": "Czechia",
+    "letter": "P"
+  },
+  {
+    "id": "00631",
+    "description": "Porter",
+    "country": "Czechia",
+    "letter": "P"
+  },
+  {
+    "id": "00632",
+    "description": "Porter",
+    "country": "Czechia",
+    "letter": "P"
+  },
+  {
+    "id": "00633",
+    "description": "Porter",
+    "country": "Czechia",
+    "letter": "P"
+  },
+  {
+    "id": "00634",
+    "description": "Porter",
+    "country": "Czechia",
+    "letter": "P"
+  },
+  {
+    "id": "00635",
+    "description": "Primator",
+    "country": "Czechia",
+    "letter": "P"
+  },
+  {
+    "id": "00636",
+    "description": "Primator",
+    "country": "Czechia",
+    "letter": "P"
+  },
+  {
+    "id": "00637",
+    "description": "Pernstejn",
+    "country": "Czechia",
+    "letter": "P"
+  },
+  {
+    "id": "00638",
+    "description": "Pernstejn",
+    "country": "Czechia",
+    "letter": "P"
+  },
+  {
+    "id": "00639",
+    "description": "Paulaner",
+    "country": "Czechia",
+    "letter": "P"
+  },
+  {
+    "id": "00640",
+    "description": "Paintball Hall",
+    "country": "Czechia",
+    "letter": "P"
+  },
+  {
+    "id": "00641",
+    "description": "Preska",
+    "country": "Czechia",
+    "letter": "P"
+  },
+  {
+    "id": "00642",
+    "description": "Pilsner Urquell",
+    "country": "Czechia",
+    "letter": "P"
+  },
+  {
+    "id": "00643",
+    "description": "Pork and Beer",
+    "country": "Czechia",
+    "letter": "P"
+  },
+  {
+    "id": "00644",
+    "description": "Pork and Beer",
+    "country": "Czechia",
+    "letter": "P"
+  },
+  {
+    "id": "00645",
+    "description": "Pork and Beer",
+    "country": "Czechia",
+    "letter": "P"
+  },
+  {
+    "id": "00646",
+    "description": "Pilsner Urquell",
+    "country": "Czechia",
+    "letter": "P"
+  },
+  {
+    "id": "00647",
+    "description": "Pilsner Urquell",
+    "country": "Czechia",
+    "letter": "P"
+  },
+  {
+    "id": "00648",
+    "description": "Prazacka",
+    "country": "Czechia",
+    "letter": "P"
+  },
+  {
+    "id": "00649",
+    "description": "Poutnik Pelhrimov",
+    "country": "Czechia",
+    "letter": "P"
+  },
+  {
+    "id": "00650",
+    "description": "Jazz Republic",
+    "country": "Czechia",
+    "letter": "J"
+  },
+  {
+    "id": "00651",
+    "description": "Omer",
+    "country": "Czechia",
+    "letter": "O"
+  },
+  {
+    "id": "00652",
+    "description": "Omer",
+    "country": "Czechia",
+    "letter": "O"
+  },
+  {
+    "id": "00653",
+    "description": "Quest Cafe",
+    "country": "Czechia",
+    "letter": "Q"
+  },
+  {
+    "id": "00654",
+    "description": "Raschhofer",
+    "country": "Austria",
+    "letter": "R"
+  },
+  {
+    "id": "00655",
+    "description": "Romano Pizzeria",
+    "country": "Czechia",
+    "letter": "R"
+  },
+  {
+    "id": "00656",
+    "description": "Radegast",
+    "country": "Czechia",
+    "letter": "R"
+  },
+  {
+    "id": "00657",
+    "description": "Radeberger",
+    "country": "Germany",
+    "letter": "R"
+  },
+  {
+    "id": "00658",
+    "description": "Radous",
+    "country": "Czechia",
+    "letter": "R"
+  },
+  {
+    "id": "00659",
+    "description": "Rychtar",
+    "country": "Czechia",
+    "letter": "R"
+  },
+  {
+    "id": "00660",
+    "description": "Rychtar",
+    "country": "Czechia",
+    "letter": "R"
+  },
+  {
+    "id": "00661",
+    "description": "Raven",
+    "country": "Czechia",
+    "letter": "R"
+  },
+  {
+    "id": "00662",
+    "description": "Revnice",
+    "country": "Czechia",
+    "letter": "R"
+  },
+  {
+    "id": "00663",
+    "description": "Rychtar",
+    "country": "Czechia",
+    "letter": "R"
+  },
+  {
+    "id": "00664",
+    "description": "Staropramen",
+    "country": "Czechia",
+    "letter": "S"
+  },
+  {
+    "id": "00665",
+    "description": "Staropramen",
+    "country": "Czechia",
+    "letter": "S"
+  },
+  {
+    "id": "00666",
+    "description": "Staropramen",
+    "country": "Czechia",
+    "letter": "S"
+  },
+  {
+    "id": "00667",
+    "description": "Staropramen",
+    "country": "Czechia",
+    "letter": "S"
+  },
+  {
+    "id": "00668",
+    "description": "Staropramen",
+    "country": "Czechia",
+    "letter": "S"
+  },
+  {
+    "id": "00669",
+    "description": "Stankuv",
+    "country": "Czechia",
+    "letter": "S"
+  },
+  {
+    "id": "00670",
+    "description": "Kout na Sumave",
+    "country": "Czechia",
+    "letter": "K"
+  },
+  {
+    "id": "00671",
+    "description": "Sagres",
+    "country": "Portugal",
+    "letter": "S"
+  },
+  {
+    "id": "00672",
+    "description": "Super Bock",
+    "country": "Portugal",
+    "letter": "S"
+  },
+  {
+    "id": "00673",
+    "description": "Falkenstejn",
+    "country": "Czechia",
+    "letter": "F"
+  },
+  {
+    "id": "00674",
+    "description": "Stojaka",
+    "country": "Czechia",
+    "letter": "S"
+  },
+  {
+    "id": "00675",
+    "description": "Stouterik",
+    "country": "Belgium",
+    "letter": "S"
+  },
+  {
+    "id": "00676",
+    "description": "Stiegl",
+    "country": "Austria",
+    "letter": "S"
+  },
+  {
+    "id": "00677",
+    "description": "Scala",
+    "country": "Czechia",
+    "letter": "S"
+  },
+  {
+    "id": "00678",
+    "description": "Svijany",
+    "country": "Czechia",
+    "letter": "S"
+  },
+  {
+    "id": "00679",
+    "description": "Svijany",
+    "country": "Czechia",
+    "letter": "S"
+  },
+  {
+    "id": "00680",
+    "description": "Svijany",
+    "country": "Czechia",
+    "letter": "S"
+  },
+  {
+    "id": "00681",
+    "description": "Svijany",
+    "country": "Czechia",
+    "letter": "S"
+  },
+  {
+    "id": "00682",
+    "description": "Svijany",
+    "country": "Czechia",
+    "letter": "S"
+  },
+  {
+    "id": "00683",
+    "description": "Svijany",
+    "country": "Czechia",
+    "letter": "S"
+  },
+  {
+    "id": "00684",
+    "description": "Svijany",
+    "country": "Czechia",
+    "letter": "S"
+  },
+  {
+    "id": "00685",
+    "description": "Svijany",
+    "country": "Czechia",
+    "letter": "S"
+  },
+  {
+    "id": "00686",
+    "description": "Svijany",
+    "country": "Czechia",
+    "letter": "S"
+  },
+  {
+    "id": "00687",
+    "description": "Svijany",
+    "country": "Czechia",
+    "letter": "S"
+  },
+  {
+    "id": "00688",
+    "description": "Svijany",
+    "country": "Czechia",
+    "letter": "S"
+  },
+  {
+    "id": "00689",
+    "description": "Svijany",
+    "country": "Czechia",
+    "letter": "S"
+  },
+  {
+    "id": "00690",
+    "description": "Svijany",
+    "country": "Czechia",
+    "letter": "S"
+  },
+  {
+    "id": "00691",
+    "description": "Super Bock",
+    "country": "Portugal",
+    "letter": "S"
+  },
+  {
+    "id": "00692",
+    "description": "St Feuillien",
+    "country": "Belgium",
+    "letter": "S"
+  },
+  {
+    "id": "00693",
+    "description": "Tyskie",
+    "country": "Poland",
+    "letter": "T"
+  },
+  {
+    "id": "00694",
+    "description": "Tyskie",
+    "country": "Poland",
+    "letter": "T"
+  },
+  {
+    "id": "00695",
+    "description": "Tyskie",
+    "country": "Poland",
+    "letter": "T"
+  },
+  {
+    "id": "00696",
+    "description": "Uneticky",
+    "country": "Czechia",
+    "letter": "U"
+  },
+  {
+    "id": "00697",
+    "description": "Uneticky",
+    "country": "Czechia",
+    "letter": "U"
+  },
+  {
+    "id": "00698",
+    "description": "Uneticky",
+    "country": "Czechia",
+    "letter": "U"
+  },
+  {
+    "id": "00699",
+    "description": "Utopia Cajovna",
+    "country": "Czechia",
+    "letter": "U"
+  },
+  {
+    "id": "00700",
+    "description": "Uneticky",
+    "country": "Czechia",
+    "letter": "U"
+  },
+  {
+    "id": "00701",
+    "description": "Uneticky",
+    "country": "Czechia",
+    "letter": "U"
+  },
+  {
+    "id": "00702",
+    "description": "Volt Jablonecky",
+    "country": "Czechia",
+    "letter": "V"
+  },
+  {
+    "id": "00703",
+    "description": "Volt Jablonecky",
+    "country": "Czechia",
+    "letter": "V"
+  },
+  {
+    "id": "00704",
+    "description": "Veldensteiner",
+    "country": "Germany",
+    "letter": "V"
+  },
+  {
+    "id": "00705",
+    "description": "Veldensteiner",
+    "country": "Germany",
+    "letter": "V"
+  },
+  {
+    "id": "00706",
+    "description": "Vegalite",
+    "country": "Czechia",
+    "letter": "V"
+  },
+  {
+    "id": "00707",
+    "description": "Vinohradsky",
+    "country": "Czechia",
+    "letter": "V"
+  },
+  {
+    "id": "00708",
+    "description": "Visoky Chlumec",
+    "country": "Czechia",
+    "letter": "V"
+  },
+  {
+    "id": "00709",
+    "description": "Victor",
+    "country": "Czechia",
+    "letter": "V"
+  },
+  {
+    "id": "00710",
+    "description": "Zipfer",
+    "country": "Germany",
+    "letter": "Z"
+  },
+  {
+    "id": "00711",
+    "description": "Zatec",
+    "country": "Czechia",
+    "letter": "Z"
+  },
+  {
+    "id": "00712",
+    "description": "Zichovec",
+    "country": "Czechia",
+    "letter": "Z"
+  },
+  {
+    "id": "00713",
+    "description": "Zlatopramen",
+    "country": "Czechia",
+    "letter": "Z"
+  },
+  {
+    "id": "00714",
+    "description": "Zlaty Bazant",
+    "country": "Slovakia",
+    "letter": "Z"
+  },
+  {
+    "id": "00715",
+    "description": "",
+    "country": "Czechia",
+    "letter": "XX"
+  },
+  {
+    "id": "00716",
+    "description": "",
+    "country": "Czechia",
+    "letter": "XX"
+  },
+  {
+    "id": "00717",
+    "description": "",
+    "country": "Czechia",
+    "letter": "XX"
+  },
+  {
+    "id": "00718",
+    "description": "",
+    "country": "Czechia",
+    "letter": "XX"
+  },
+  {
+    "id": "00719",
+    "description": "Beirao",
+    "country": "Portugal",
+    "letter": "B"
+  },
+  {
+    "id": "00720",
+    "description": "Pilsner Urquell",
+    "country": "Czechia",
+    "letter": "P"
+  },
+  {
+    "id": "00721",
+    "description": "Pilsner Urquell",
+    "country": "Czechia",
+    "letter": "P"
+  },
+  {
+    "id": "00722",
+    "description": "Pilsner Urquell",
+    "country": "Czechia",
+    "letter": "P"
+  },
+  {
+    "id": "00723",
+    "description": "Breznak",
+    "country": "Czechia",
+    "letter": "B"
+  },
+  {
+    "id": "00724",
+    "description": "Beznoska",
+    "country": "Czechia",
+    "letter": "B"
+  },
+  {
+    "id": "00725",
+    "description": "Zalozna",
+    "country": "Czechia",
+    "letter": "Z"
+  },
+  {
+    "id": "00726",
+    "description": "Zalozna",
+    "country": "Czechia",
+    "letter": "Z"
+  },
+  {
+    "id": "00727",
+    "description": "Karlicek",
+    "country": "Czechia",
+    "letter": "K"
+  },
+  {
+    "id": "00728",
+    "description": "Lasagneria",
+    "country": "Czechia",
+    "letter": "L"
+  },
+  {
+    "id": "00729",
+    "description": "Karlicek",
+    "country": "Czechia",
+    "letter": "K"
+  },
+  {
+    "id": "00730",
+    "description": "",
+    "country": "",
+    "letter": "XX"
+  },
+  {
+    "id": "00731",
+    "description": "Old Cock",
+    "country": "Czechia",
+    "letter": "O"
+  },
+  {
+    "id": "00732",
+    "description": "Old Cock",
+    "country": "Czechia",
+    "letter": "O"
+  },
+  {
+    "id": "00733",
+    "description": "Mangy Moose",
+    "country": "USA",
+    "letter": "M"
+  },
+  {
+    "id": "00734",
+    "description": "Cesky Krumlov",
+    "country": "Czechia",
+    "letter": "C"
+  },
+  {
+    "id": "00735",
+    "description": "Cesky Krumlov",
+    "country": "Czechia",
+    "letter": "C"
+  },
+  {
+    "id": "00736",
+    "description": "Cesky Krumlov",
+    "country": "Czechia",
+    "letter": "C"
+  },
+  {
+    "id": "00737",
+    "description": "Laplace",
+    "country": "Czechia",
+    "letter": "L"
+  },
+  {
+    "id": "00738",
+    "description": "Lazensky",
+    "country": "Czechia",
+    "letter": "L"
+  },
+  {
+    "id": "00739",
+    "description": "",
+    "country": "Belgium",
+    "letter": "XX"
+  },
+  {
+    "id": "00740",
+    "description": "",
+    "country": "Czechia",
+    "letter": "XX"
+  },
+  {
+    "id": "00741",
+    "description": "Kofola",
+    "country": "Czechia",
+    "letter": "K"
+  },
+  {
+    "id": "00742",
+    "description": "Kofola",
+    "country": "Czechia",
+    "letter": "K"
+  },
+  {
+    "id": "00743",
+    "description": "Kofola",
+    "country": "Czechia",
+    "letter": "K"
+  },
+  {
+    "id": "00744",
+    "description": "Kozel",
+    "country": "Czechia",
+    "letter": "K"
+  },
+  {
+    "id": "00745",
+    "description": "Kozel",
+    "country": "Czechia",
+    "letter": "K"
+  },
+  {
+    "id": "00746",
+    "description": "Kozel",
+    "country": "Czechia",
+    "letter": "K"
+  },
+  {
+    "id": "00747",
+    "description": "Kozel",
+    "country": "Czechia",
+    "letter": "K"
+  },
+  {
+    "id": "00748",
+    "description": "Kozel",
+    "country": "Czechia",
+    "letter": "K"
+  },
+  {
+    "id": "00749",
+    "description": "Krusovice",
+    "country": "Czechia",
+    "letter": "K"
+  },
+  {
+    "id": "00750",
+    "description": "Krusovice",
+    "country": "Czechia",
+    "letter": "K"
+  },
+  {
+    "id": "00751",
+    "description": "Konrad",
+    "country": "Czechia",
+    "letter": "K"
+  },
+  {
+    "id": "00752",
+    "description": "Kocouri",
+    "country": "Czechia",
+    "letter": "K"
+  },
+  {
+    "id": "00753",
+    "description": "Keuzberger",
+    "country": "Germany",
+    "letter": "K"
+  },
+  {
+    "id": "00754",
+    "description": "Kbely",
+    "country": "Czechia",
+    "letter": "K"
+  },
+  {
+    "id": "00755",
+    "description": "Karlovarske",
+    "country": "Czechia",
+    "letter": "K"
+  },
+  {
+    "id": "00756",
+    "description": "Kahan",
+    "country": "Czechia",
+    "letter": "K"
+  },
+  {
+    "id": "00757",
+    "description": "Knir",
+    "country": "Czechia",
+    "letter": "K"
+  },
+  {
+    "id": "00758",
+    "description": "Kasteel",
+    "country": "Belgium",
+    "letter": "K"
+  },
+  {
+    "id": "00759",
+    "description": "Kamenice",
+    "country": "Czechia",
+    "letter": "K"
+  },
+  {
+    "id": "00760",
+    "description": "Kamenice",
+    "country": "Czechia",
+    "letter": "K"
+  },
+  {
+    "id": "00761",
+    "description": "Krusnohor",
+    "country": "Czechia",
+    "letter": "K"
+  },
+  {
+    "id": "00762",
+    "description": "Wieselburg",
+    "country": "Austria",
+    "letter": "W"
+  },
+  {
+    "id": "00763",
+    "description": "Kornuit",
+    "country": "Netherlands",
+    "letter": "K"
+  },
+  {
+    "id": "00764",
+    "description": "Krumauer",
+    "country": "Czechia",
+    "letter": "K"
+  },
+  {
+    "id": "00765",
+    "description": "Krusovice",
+    "country": "Slovakia",
+    "letter": "K"
+  },
+  {
+    "id": "00766",
+    "description": "Kelt",
+    "country": "Czechia",
+    "letter": "K"
+  },
+  {
+    "id": "00767",
+    "description": "Tovarna",
+    "country": "Czechia",
+    "letter": "T"
+  },
+  {
+    "id": "00768",
+    "description": "Kutna Hora",
+    "country": "Czechia",
+    "letter": "K"
+  },
+  {
+    "id": "00769",
+    "description": "Kutna Hora",
+    "country": "Czechia",
+    "letter": "K"
+  },
+  {
+    "id": "00770",
+    "description": "Kutna Hora",
+    "country": "Czechia",
+    "letter": "K"
+  },
+  {
+    "id": "00771",
+    "description": "Kutna Hora",
+    "country": "Czechia",
+    "letter": "K"
+  },
+  {
+    "id": "00772",
+    "description": "Kairos",
+    "country": "Brazil",
+    "letter": "K"
+  },
+  {
+    "id": "00773",
+    "description": "Kasteel",
+    "country": "Belgium",
+    "letter": "K"
+  },
+  {
+    "id": "00774",
+    "description": "Kwak",
+    "country": "Belgium",
+    "letter": "K"
+  },
+  {
+    "id": "00775",
+    "description": "Kujebak",
+    "country": "Czechia",
+    "letter": "K"
+  },
+  {
+    "id": "00776",
+    "description": "Bird",
+    "country": "Netherlands",
+    "letter": "B"
+  },
+  {
+    "id": "00777",
+    "description": "Brew Dog",
+    "country": "Czechia",
+    "letter": "B"
+  },
+  {
+    "id": "00778",
+    "description": "Baptist",
+    "country": "Belgium",
+    "letter": "B"
+  },
+  {
+    "id": "00779",
+    "description": "Letajici",
+    "country": "Czechia",
+    "letter": "L"
+  },
+  {
+    "id": "00780",
+    "description": "Berliner Berg",
+    "country": "Germany",
+    "letter": "B"
+  },
+  {
+    "id": "00781",
+    "description": "Beers & Cheers",
+    "country": "Czechia",
+    "letter": "B"
+  },
+  {
+    "id": "00782",
+    "description": "Bubenec",
+    "country": "Czechia",
+    "letter": "B"
+  },
+  {
+    "id": "00783",
+    "description": "Klubovna",
+    "country": "Czechia",
+    "letter": "K"
+  },
+  {
+    "id": "00784",
+    "description": "Bulldog",
+    "country": "Netherlands",
+    "letter": "B"
+  },
+  {
+    "id": "00785",
+    "description": "Brothers in Law",
+    "country": "Netherlands",
+    "letter": "B"
+  },
+  {
+    "id": "00786",
+    "description": "Beskydsky",
+    "country": "Czechia",
+    "letter": "B"
+  },
+  {
+    "id": "00787",
+    "description": "Beskydsky",
+    "country": "Czechia",
+    "letter": "B"
+  },
+  {
+    "id": "00788",
+    "description": "Beskydsky",
+    "country": "Czechia",
+    "letter": "B"
+  },
+  {
+    "id": "00789",
+    "description": "Budvar",
+    "country": "Czechia",
+    "letter": "B"
+  },
+  {
+    "id": "00790",
+    "description": "Budvar",
+    "country": "Czechia",
+    "letter": "B"
+  },
+  {
+    "id": "00791",
+    "description": "Budvar",
+    "country": "Czechia",
+    "letter": "B"
+  },
+  {
+    "id": "00792",
+    "description": "Budvar",
+    "country": "Czechia",
+    "letter": "B"
+  },
+  {
+    "id": "00793",
+    "description": "Bakalar",
+    "country": "Czechia",
+    "letter": "B"
+  },
+  {
+    "id": "00794",
+    "description": "Bakalar",
+    "country": "Czechia",
+    "letter": "B"
+  },
+  {
+    "id": "00795",
+    "description": "Blue Moon",
+    "country": "Belgium",
+    "letter": "B"
+  },
+  {
+    "id": "00796",
+    "description": "Blue Moon",
+    "country": "Belgium",
+    "letter": "B"
+  },
+  {
+    "id": "00797",
+    "description": "Brouwer",
+    "country": "Belgium",
+    "letter": "B"
+  },
+  {
+    "id": "00798",
+    "description": "Baguales",
+    "country": "Chile",
+    "letter": "B"
+  },
+  {
+    "id": "00799",
+    "description": "Britt",
+    "country": "Costa Rica",
+    "letter": "B"
+  },
+  {
+    "id": "00800",
+    "description": "Bavaria",
+    "country": "Germany",
+    "letter": "B"
+  },
+  {
+    "id": "00801",
+    "description": "Bernard",
+    "country": "Czechia",
+    "letter": "B"
+  },
+  {
+    "id": "00802",
+    "description": "Bernard",
+    "country": "Czechia",
+    "letter": "B"
+  },
+  {
+    "id": "00803",
+    "description": "Bernard",
+    "country": "Czechia",
+    "letter": "B"
+  },
+  {
+    "id": "00804",
+    "description": "Bernard",
+    "country": "Czechia",
+    "letter": "B"
+  },
+  {
+    "id": "00805",
+    "description": "Bernard",
+    "country": "Czechia",
+    "letter": "B"
+  },
+  {
+    "id": "00806",
+    "description": "Belzebuth",
+    "country": "Belgium",
+    "letter": "B"
+  },
+  {
+    "id": "00807",
+    "description": "Branik",
+    "country": "Czechia",
+    "letter": "B"
+  },
+  {
+    "id": "00808",
+    "description": "Barkotex",
+    "country": "Czechia",
+    "letter": "B"
+  },
+  {
+    "id": "00809",
+    "description": "Barao",
+    "country": "Brazil",
+    "letter": "B"
+  },
+  {
+    "id": "00810",
+    "description": "Becherovka",
+    "country": "Czechia",
+    "letter": "B"
+  },
+  {
+    "id": "00811",
+    "description": "Becherovka",
+    "country": "Czechia",
+    "letter": "B"
+  },
+  {
+    "id": "00812",
+    "description": "Becherovka",
+    "country": "Czechia",
+    "letter": "B"
+  },
+  {
+    "id": "00813",
+    "description": "Brasserie de la Senne",
+    "country": "Belgium",
+    "letter": "B"
+  },
+  {
+    "id": "00814",
+    "description": "Becks",
+    "country": "Germany",
+    "letter": "B"
+  },
+  {
+    "id": "00815",
+    "description": "Bohemia",
+    "country": "Czechia",
+    "letter": "B"
+  }
+]
