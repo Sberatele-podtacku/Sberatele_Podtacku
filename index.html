@@ -97,7 +97,7 @@
       const alphaDiv = document.getElementById('alphaFilter');
      ['all', ...'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split(''), 'empty'].forEach(letter => {
         const btn = document.createElement('button');
-        btn.textContent = letter;
+btn.textContent = letter === 'all' ? 'All' : letter === 'empty' ? 'Empty' : letter;
         btn.dataset.letter = letter;
         if(letter === 'all') btn.classList.add('active');
         btn.onclick = () => {
@@ -113,7 +113,7 @@
       const countries = Array.from(new Set(metadata.map(m => m.country).filter(c => c))).sort();
       ['all', ...countries, 'empty'].forEach(c => {
         const btn = document.createElement('button');
-        btn.textContent = c;
+btn.textContent = c === 'all' ? 'All' : c === 'empty' ? 'Empty' : c;
         btn.dataset.country = c;
         if(c === 'all') btn.classList.add('active');
         btn.onclick = () => {
