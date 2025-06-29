@@ -83,7 +83,7 @@
       .then(res => res.ok ? res.json() : Promise.reject('Failed to fetch metadata.json'))
       .then(data => {
         metadata = data;
-        initFilters();
+        initFilters(data);
         renderGallery();
       })
       .catch(err => console.error('Error loading metadata:', err));
