@@ -6,7 +6,8 @@ import multiprocessing
 # ─── CONFIG ───────────────────────────────────────────────────────────────
 BASE_DIR = r"C:\Users\ASUS GAMING\Documents\GitHub\Sberatele_Podtacku"
 SOURCE_DIR = os.path.join(BASE_DIR, "images")          # Folder with .png
-OUTPUT_DIR = os.path.join(BASE_DIR, "images_webp_threaded")  # Output folder
+OUTPUT_DIR = os.path.join(BASE_DIR, "imag
+es_webp_threaded")  # Output folder
 QUALITY = 85
 # ──────────────────────────────────────────────────────────────────────────
 

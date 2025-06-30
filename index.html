@@ -29,7 +29,15 @@
              display: flex; flex-direction: column; justify-content: space-between; }
     .tile img { width: 100%; height: auto; display: block; border-radius: 8px 8px 0 0; }
     .tile .thumb-flip { position: absolute; top: 8px; right: 8px; background: rgba(255,255,255,0.8); border: none; border-radius: 50%; width: 28px; height: 28px; cursor: pointer; font-size: 16px; line-height: 1; display: flex; align-items: center; justify-content: center; }
-    .tile figcaption { padding: 0.25rem 0.5rem; text-align: center; font-size: 0.7rem; color: #333; line-height: 1.1rem; height: 2.2rem; overflow: hidden; }
+    .tile figcaption {
+  padding: 0.25rem 0.5rem;
+  text-align: center;
+  font-size: 0.7rem;
+  color: #333;
+  line-height: 1.2rem;
+  height: 2.6rem; /* previously 2.2rem */
+  overflow: hidden;
+}
 
     .overlay { position: fixed; inset: 0; background: rgba(0,0,0,0.8); display: none; align-items: center; justify-content: center; z-index: 1000; }
     .overlay.active { display: flex; }
@@ -173,10 +181,13 @@ btn.textContent = c === 'all' ? 'All' : c === 'empty' ? 'Empty' : c;
         flipBtn.onclick = e => { e.stopPropagation(); img.click(); };
         fig.append(flipBtn);
 
-        const cap = document.createElement('figcaption'); cap.textContent = m.description || '';
-        // open lightbox on description click
-        cap.onclick = () => openLightbox(m.id, img.dataset.side);
-        fig.append(cap);
+        const cap = document.createElement('figcaption');
+cap.innerHTML = `
+  <div style="font-weight: 600;">${m.description || ''}</div>
+  <div style="font-size: 0.6rem; color: #666;">[${m.id}]</div>
+`;
+cap.onclick = () => openLightbox(m.id, img.dataset.side);
+fig.append(cap);
 
         gallery.append(fig);
       });
