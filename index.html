@@ -44,12 +44,17 @@
   </style>
 </head>
 <body>
-  <header>
-    <img src="logos/logo1.png" alt="Logo" class="logo" />
-    <h1>Beer Coaster Gallery</h1>
-    <img src="logos/logo2.png" alt="Logo" class="logo" />
-    <div class="instructions">Click Name to Zoom | Click Thumbnail to Flip</div>
-  </header>
+ <header>
+  <img src="logos/logo1.png" alt="Logo" class="logo" />
+  <h1>Beer Coaster Gallery</h1>
+  <img src="logos/logo2.png" alt="Logo" class="logo" />
+  <div class="instructions">Click Name to Zoom | Click Thumbnail to Flip</div>
+  <div class="readme-link" style="margin-top: 0.5rem;">
+    <a href="#" onclick="document.getElementById('readmeModal').style.display='block'" style="color:#007bff; text-decoration:underline;">
+      📘 README / Project Info
+    </a>
+  </div>
+</header>
 
   <section class="filters">
     <div class="alpha">
@@ -213,5 +218,109 @@ btn.textContent = c === 'all' ? 'All' : c === 'empty' ? 'Empty' : c;
       });
     }
   </script>
+<!-- README Modal -->
+<div id="readmeModal" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%;
+     background:rgba(0,0,0,0.9); color:#fff; overflow:auto; padding:2rem; z-index:9999;">
+  <div style="max-width:900px; margin:auto; background:#222; padding:2rem; border-radius:8px;">
+    <button onclick="document.getElementById('readmeModal').style.display='none'"
+            style="float:right; font-size:1.5rem; background:none; border:none; color:#fff;">✖</button>
+    <h2>📘 Project README</h2>
+    <pre style="white-space:pre-wrap; font-family:'Courier New', monospace; font-size:0.9rem; color:#ddd; max-height:80vh; overflow-y:auto;">
+
+🍺 Beer Coaster Collection & Gallery
+
+A streamlined image workflow and static web gallery to showcase my personal collection of beer coasters. Built for efficiency, consistency, and style — all powered by Python and GitHub Pages.
+
+---
+
+📸 First Phase: Capture & Organize
+
+1. Photographed the **first 730 coasters** (front and back).
+2. Processed them using a series of Python scripts:
+   - **Resized and centered** on uniform white backgrounds.
+   - **Removed backgrounds** using `rembg`.
+   - **Renamed** all files sequentially as `00001_front`, `00001_back`, etc.
+   - **Detected duplicates** with SSIM comparison (`check_duplicates.py`).
+   - **Created thumbnails** for fast web loading.
+   - **Generated CSV metadata**, later enriched manually and exported to JSON.
+
+---
+
+🧪 Second Phase: Final 130 Coasters
+
+After validating the initial workflow and gallery structure:
+
+1. Photographed and **processed the final 130 coasters**, ensuring none were duplicated.
+2. **Consolidated** all processing steps into a single script: `new_coasters.py`.
+3. **Converted all PNGs to WEBP** to reduce file size and improve performance.
+4. Automatically:
+   - Removed BG
+   - Resized + centered
+   - Converted to `.webp`
+   - Renamed as the next sequential ID
+   - Generated thumbnails
+   - Updated metadata CSV
+
+---
+
+🌐 GitHub Pages Gallery
+
+Once the `/images/`, `/thumbs/`, and `metadata.json` are in place, publishing is easy:
+
+1. Add the following to the root of your repo:
+   - `/images/` — Final WEBP front/back coasters
+   - `/images/thumbs/` — Thumbnail previews
+   - `/logos/` — Branding
+   - `index.html` — Static gallery interface
+   - `metadata.json` — Manually curated info
+   - `sw.js` — Service worker
+   - `README.md` — This file
+
+2. Preview locally with:
+   python -m http.server
+   # or:
+   npx http-server
+
+3. Push to GitHub and enjoy automatic publication via GitHub Pages.
+
+---
+
+📁 Directory Structure
+
+/ (root)
+├── images/                # final .webp images (front/back)
+│   └── thumbs/            # smaller webp thumbs
+├── logos/                 # header logos
+├── metadata.json          # enriched data per coaster
+├── index.html             # gallery HTML (static)
+├── sw.js                  # caching for offline usage
+├── new_coasters.py        # main all-in-one processing pipeline
+├── [archived_scripts]/    # older scripts: remove_bg, resize, rename, check_duplicates
+└── README.md              # this file
+
+---
+
+🔁 Adding New Coasters
+
+1. Drop new JPGs into the `new_coaster/` folder.
+2. Run:
+   python new_coasters.py
+
+3. Script will:
+   - Clean images
+   - Rename + generate thumbs
+   - Update `metadata_updated.csv`
+
+4. Update the web gallery by committing & pushing to GitHub.
+
+---
+
+Built with ❤️ using Python, rembg, Pillow, pandas, scikit-image, and hosted on GitHub Pages.  
+Special thanks to **ChatGPT** for code generation and optimization guidance!
+
+    </pre>
+  </div>
+</div>
+
 </body>
 </html>
