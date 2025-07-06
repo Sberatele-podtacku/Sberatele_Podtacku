@@ -62,6 +62,11 @@
       📘 README / Project Info
     </a>
   </div>
+  <div style="margin-top: 1rem; text-align:center;">
+    <input type="text" id="searchInput" placeholder="🔍 Search by name, brewery, or city..." 
+           style="padding: 0.5rem; width: 80%; max-width: 400px; font-size: 1rem; border-radius: 6px; border: 1px solid #ccc;" />
+  </div>
+
 </header>
 
   <section class="filters">
@@ -96,6 +101,12 @@
     let activeAlpha = 'all';
     let activeCountry = 'all';
     let filteredIds = [];
+let activeSearch = '';
+
+document.getElementById('searchInput').addEventListener('input', function () {
+  activeSearch = this.value.toLowerCase();
+  renderGallery();
+});
 
     fetch('./metadata.json')
       .then(res => res.ok ? res.json() : Promise.reject('Failed to fetch metadata.json'))
@@ -145,7 +156,8 @@ btn.textContent = c === 'all' ? 'All' : c === 'empty' ? 'Empty' : c;
 
       let filtered = metadata.filter(m =>
         (activeAlpha === 'all' || (activeAlpha === 'empty' && (!m.description || m.description.trim() === '' || m.letter === 'XX')) || ((m.description || '').charAt(0).toUpperCase() === activeAlpha)) &&
-        (activeCountry === 'all' || (activeCountry === 'empty' && (!m.country || m.country.trim() === '')) || m.country === activeCountry)
+        (activeCountry === 'all' || (activeCountry === 'empty' && (!m.country || m.country.trim() === '')) || m.country === activeCountry) &&
+        (activeSearch === '' || (m.description || '').toLowerCase().includes(activeSearch))
       );
 
       const withLetter = filtered
